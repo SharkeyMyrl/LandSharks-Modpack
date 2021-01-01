@@ -1,1 +1,1 @@
-recipes.remove(<horsepower:hand_grindstone>);
+mods.jei.JEI.removeAndHide(<horsepower:hand_grindstone>);

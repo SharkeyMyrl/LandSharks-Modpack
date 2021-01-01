@@ -1,11 +1,11 @@
 version:1343
 invertYMouse:false
 mouseSensitivity:0.5
-fov:0.0
+fov:0.5
 gamma:0.0
 saturation:0.0
 renderDistance:12
-guiScale:0
+guiScale:2
 particles:0
 bobView:true
 anaglyph3d:false
@@ -150,7 +150,7 @@ key_key.journeymap.fullscreen.north:200
 key_key.journeymap.fullscreen.south:208
 key_key.journeymap.fullscreen.east:205
 key_key.journeymap.fullscreen.west:203
-soundCategory_master:1.0
+soundCategory_master:0.029801324
 soundCategory_music:1.0
 soundCategory_record:1.0
 soundCategory_weather:1.0
