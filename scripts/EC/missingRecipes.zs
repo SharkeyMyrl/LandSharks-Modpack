@@ -82,10 +82,10 @@ var clay = <ore:clay>;
 var sand = <ore:sand>;
 
 recipes.remove(<immersiveengineering:stone_decoration:5>);
-recipes.addShaped(<immersiveengineering:stone_decoration:5>*12, [[<immersiveengineering:material:7>, clay, <immersiveengineering:material:7>],
+recipes.addShaped([<immersiveengineering:stone_decoration:5>*12, <minecraft:bucket>], [[<immersiveengineering:material:7>, clay, <immersiveengineering:material:7>],
 																			  [gravel, <forge:bucketfilled>.withTag({FluidName: "fresh_water", Amount: 1000}), gravel],
 																			  [<immersiveengineering:material:7>, clay, <immersiveengineering:material:7>]]);
-recipes.addShaped(<immersiveengineering:stone_decoration:5>*8, [[sand, clay, sand],
+recipes.addShaped([<immersiveengineering:stone_decoration:5>*8, <minecraft:bucket>], [[sand, clay, sand],
 																			  [gravel, <forge:bucketfilled>.withTag({FluidName: "fresh_water", Amount: 1000}), gravel],
 																			  [sand, clay, sand]]);
 recipes.addShaped(<immersiveengineering:stone_decoration:5>*1, [[<immersiveengineering:stone_decoration_slab:5>],
@@ -94,9 +94,9 @@ recipes.addShapeless(<immersiveengineering:stone_decoration:5>*1, [<immersiveeng
 
 #Asphalt Concrete
 recipes.remove(<immersivepetroleum:stone_decoration:0>);
-recipes.addShaped(<immersivepetroleum:stone_decoration:0>*12, [[<immersiveengineering:material:7>, <immersivepetroleum:material:0>, <immersiveengineering:material:7>],
+recipes.addShaped([<immersivepetroleum:stone_decoration:0>*12, <minecraft:bucket>], [[<immersiveengineering:material:7>, <immersivepetroleum:material:0>, <immersiveengineering:material:7>],
 																			  [gravel, <forge:bucketfilled>.withTag({FluidName: "fresh_water", Amount: 1000}), gravel],
 																			  [<immersiveengineering:material:7>, <immersivepetroleum:material:0>, <immersiveengineering:material:7>]]);
-recipes.addShaped(<immersivepetroleum:stone_decoration:0>*8, [[sand, <immersivepetroleum:material:0>, sand],
+recipes.addShaped([<immersivepetroleum:stone_decoration:0>*8, <minecraft:bucket>], [[sand, <immersivepetroleum:material:0>, sand],
 																			  [gravel, <forge:bucketfilled>.withTag({FluidName: "fresh_water", Amount: 1000}), gravel],
 																			  [sand, <immersivepetroleum:material:0>, sand]]);
