@@ -215,7 +215,7 @@ var plates as IItemStack[] = [
 ];
 
 for each in plates{
-	recipes.remove(each);
+	MetalPress.removeRecipe(each);
 }
 
 #################################################
@@ -243,6 +243,7 @@ for i in 0 to 10 {
 }
 
 Crusher.addRecipe(<minecraft:sand>, <ore:gravel>, 2048);
+Crusher.removeRecipe(<minecraft:emerald>);
 
 
 AlloySmelter.addRecipe(<ore:ingotElectrum>.firstItem*2, <ore:ingotGold>, <ore:ingotSilver>, 2000);
@@ -345,3 +346,32 @@ Fermenter.addRecipe(null, <liquid:plantoil> * 240, <tfc:food/beet>, 2048);
 #Olive Oil
 Fermenter.addRecipe(null, <liquid:olive_oil> * 20, <tfc:food/olive_paste>, 2048);
 
+
+#############
+# Recipe Changes #
+#############
+
+#Radiator
+recipes.remove(<immersiveengineering:metal_decoration0:7>);
+recipes.addShaped(<immersiveengineering:metal_decoration0:7>*2, [[<tfc:metal/ingot/steel>, <tfc:metal/ingot/copper>, <tfc:metal/ingot/steel>],
+																			  [<tfc:metal/ingot/copper>, <forge:bucketfilled>.withTag({FluidName: "fresh_water", Amount: 1000}), <tfc:metal/ingot/copper>],
+																			  [<tfc:metal/ingot/steel>, <tfc:metal/ingot/copper>, <tfc:metal/ingot/steel>]]);
+
+recipes.removeShaped(<engineersdecor:iron_inset_light>);
+ 
+recipes.addShaped(<engineersdecor:iron_inset_light>*8,
+ [[<ore:stickSteel>,<ore:stickSteel>,<ore:stickSteel>],
+  [<ore:stickSteel>,<minecraft:redstone_lamp>,<ore:stickSteel>],
+  [<ore:stickSteel>,<ore:stickSteel>,<ore:stickSteel>]]);
+ 
+recipes.addShaped(<baubles:ring>,
+ [[<tfcmedicinal:concentrate/fragrant>,<ore:concentrateFocused>,<ore:concentrateEnergetic>],
+  [<ore:concentratePure>,<ore:sleeveSteel>,<ore:concentratePure>],
+  [<ore:concentrateEnergetic>,<ore:concentrateFocused>,<tfcmedicinal:concentrate/fragrant>]]);
+ 
+recipes.removeShaped(<engineersdecor:small_tree_cutter>);
+ 
+recipes.addShaped(<engineersdecor:small_tree_cutter>,
+ [[<ore:screwSteel>,<engineersdecor:halfslab_treated_wood>,<immersiveengineering:wirecoil:5>],
+  [<immersiveengineering:material:8>,<immersiveintelligence:sawblade:1>,<immersiveengineering:material:9>],
+  [<minecraft:observer>,<ore:slabSheetmetalSteel>,<ore:screwSteel>]]);
