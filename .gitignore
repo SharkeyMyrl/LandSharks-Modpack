@@ -1,0 +1,17 @@
+downloads
+journeymap
+local
+logs
+mods
+patchouli_books
+resourcepacks
+saves
+.curseclient
+.ReAuth.cfg
+*.log
+*.zip
+minecraftinstance.json
+usercache.json
+usernamecache.json
+cache
+.mixin.out
