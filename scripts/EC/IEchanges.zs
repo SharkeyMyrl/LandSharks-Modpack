@@ -216,6 +216,7 @@ var plates as IItemStack[] = [
 
 for each in plates{
 	recipes.remove(each);
+	MetalPress.removeRecipe(each);
 }
 
 #################################################
@@ -298,6 +299,11 @@ for metal3 in tfcMetals{
 	MetalPress.removeRecipe(input);
 }
 
+for metal3 in tfcMetals{
+	var output = itemUtils.getItem("tfc:metal/sheet/"+ metal3);
+	var input = itemUtils.getItem("tfc:metal/ingot/"+ metal3);
+	MetalPress.addRecipe(output, input, <immersiveengineering:mold:0>, 2000, 2);
+}
 
 
 
