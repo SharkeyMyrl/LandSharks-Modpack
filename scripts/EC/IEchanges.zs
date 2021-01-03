@@ -216,8 +216,33 @@ var plates as IItemStack[] = [
 
 for each in plates{
 	recipes.remove(each);
-	MetalPress.removeRecipe(each);
 }
+
+MetalPress.addRecipe(<immersiverailroading:item_rail_part>.withTag({}), <tfctech:metal/steel_rod>, <immersiveengineering:mold:2>, 2000, 2);
+
+
+for metal3 in tfcMetals{
+    MetalPress.removeRecipe(itemUtils.getItem("tfc:metal/sheet/"+ metal3));
+	var output = itemUtils.getItem("tfc:metal/double_ingot/"+ metal3);
+	var input = itemUtils.getItem("tfc:metal/ingot/"+ metal3);
+	MetalPress.addRecipe(output, input, <immersiveengineering:mold:5>, 2000, 2);
+	var output2 = itemUtils.getItem("tfc:metal/sheet/"+ metal3);
+	var input2 = itemUtils.getItem("tfc:metal/double_ingot/"+ metal3);
+	MetalPress.addRecipe(output2, input2, <immersiveengineering:mold:0>, 2000, 1);
+}
+#hopper, cauldron
+    var sPlate = <ore:plateSteel>;
+    var iPlate = <ore:plateIron>;
+    recipes.remove(<minecraft:hopper>);
+    recipes.remove(<minecraft:cauldron>);
+    recipes.addShaped(<minecraft:hopper> * 2, [[sPlate, null, sPlate],
+									[null, <ore:chest>, null]]);
+    recipes.addShaped(<minecraft:hopper>, [[iPlate, null, iPlate],
+									[null, <ore:chest>, null]]);
+    recipes.addShaped(<minecraft:cauldron>, [[iPlate, null, iPlate],
+                                    [iPlate, null, iPlate],
+									[iPlate, iPlate, iPlate]]);
+
 
 #################################################
 #		Implementation of IE Multiblocks		#
@@ -291,19 +316,7 @@ Excavator.addMineral("Extractor From Hell", 10, 0.1, ["dustGlowstone", "gemQuart
 CokeOven.addRecipe(<minecraft:coal:1>, 2, <ore:logWood>, 2000);
 
 
-MetalPress.addRecipe(<immersiverailroading:item_rail_part>.withTag({}), <tfctech:metal/steel_rod>, <immersiveengineering:mold:2>, 2000, 2);
 
-for metal3 in tfcMetals{
-	var input = itemUtils.getItem("tfc:metal/sheet/"+ metal3);
-
-	MetalPress.removeRecipe(input);
-}
-
-for metal3 in tfcMetals{
-	var output = itemUtils.getItem("tfc:metal/sheet/"+ metal3);
-	var input = itemUtils.getItem("tfc:metal/ingot/"+ metal3);
-	MetalPress.addRecipe(output, input, <immersiveengineering:mold:0>, 2000, 2);
-}
 
 
 
