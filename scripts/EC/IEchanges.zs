@@ -344,24 +344,24 @@ Fermenter.addRecipe(null, <liquid:ethanol> * 1, <immersiveengineering:material:4
 Squeezer.removeFluidRecipe(<liquid:plantoil>);
 
 
-Fermenter.addRecipe(null, <liquid:plantoil> * 4, <immersiveengineering:seed>, 1024);
-Fermenter.addRecipe(null, <liquid:plantoil> * 120, <tfc:crop/seeds/maize>, 2048);
-Fermenter.addRecipe(null, <liquid:plantoil> * 120, <tfc:crop/seeds/rice>, 2048);
-Fermenter.addRecipe(null, <liquid:plantoil> * 120, <tfc:crop/seeds/beet>, 2048);
-Fermenter.addRecipe(null, <liquid:plantoil> * 120, <tfc:crop/seeds/onion>, 2048);
-Fermenter.addRecipe(null, <liquid:plantoil> * 120, <tfc:crop/seeds/green_bean>, 2048);
-Fermenter.addRecipe(null, <liquid:plantoil> * 120, <tfc:crop/seeds/garlic>, 2048);
-Fermenter.addRecipe(null, <liquid:plantoil> * 120, <tfc:crop/seeds/cabbage>, 2048);
+Squeezer.addRecipe(null, <liquid:plantoil> * 4, <immersiveengineering:seed>, 1024);
+Squeezer.addRecipe(null, <liquid:plantoil> * 120, <tfc:crop/seeds/maize>, 2048);
+Squeezer.addRecipe(null, <liquid:plantoil> * 120, <tfc:crop/seeds/rice>, 2048);
+Squeezer.addRecipe(null, <liquid:plantoil> * 120, <tfc:crop/seeds/beet>, 2048);
+Squeezer.addRecipe(null, <liquid:plantoil> * 120, <tfc:crop/seeds/onion>, 2048);
+Squeezer.addRecipe(null, <liquid:plantoil> * 120, <tfc:crop/seeds/green_bean>, 2048);
+Squeezer.addRecipe(null, <liquid:plantoil> * 120, <tfc:crop/seeds/garlic>, 2048);
+Squeezer.addRecipe(null, <liquid:plantoil> * 120, <tfc:crop/seeds/cabbage>, 2048);
 
 
-Fermenter.addRecipe(null, <liquid:plantoil> * 240, <tfc:food/soybean>, 2048);
-Fermenter.addRecipe(null, <liquid:plantoil> * 240, <tfc:food/garlic>, 2048);
-Fermenter.addRecipe(null, <liquid:plantoil> * 240, <tfc:food/potato>, 2048);
-Fermenter.addRecipe(null, <liquid:plantoil> * 240, <tfc:food/onion>, 2048);
-Fermenter.addRecipe(null, <liquid:plantoil> * 240, <tfc:food/cabbage>, 2048);
-Fermenter.addRecipe(null, <liquid:plantoil> * 240, <tfc:food/green_bean>, 2048);
-Fermenter.addRecipe(null, <liquid:plantoil> * 240, <tfc:food/beet>, 2048);
+Squeezer.addRecipe(null, <liquid:plantoil> * 240, <tfc:food/soybean>, 2048);
+Squeezer.addRecipe(null, <liquid:plantoil> * 240, <tfc:food/garlic>, 2048);
+Squeezer.addRecipe(null, <liquid:plantoil> * 240, <tfc:food/potato>, 2048);
+Squeezer.addRecipe(null, <liquid:plantoil> * 240, <tfc:food/onion>, 2048);
+Squeezer.addRecipe(null, <liquid:plantoil> * 240, <tfc:food/cabbage>, 2048);
+Squeezer.addRecipe(null, <liquid:plantoil> * 240, <tfc:food/green_bean>, 2048);
+Squeezer.addRecipe(null, <liquid:plantoil> * 240, <tfc:food/beet>, 2048);
 
 #Olive Oil
-Fermenter.addRecipe(null, <liquid:olive_oil> * 20, <tfc:food/olive_paste>, 2048);
+Squeezer.addRecipe(null, <liquid:olive_oil> * 20, <tfc:food/olive_paste>, 2048);
 
