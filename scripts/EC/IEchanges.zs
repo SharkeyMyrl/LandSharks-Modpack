@@ -328,14 +328,14 @@ CokeOven.addRecipe(<minecraft:coal:1>, 2, <ore:logWood>, 2000);
 Fermenter.removeFluidRecipe(<liquid:ethanol>);
 
 #Ethanol
-Fermenter.addRecipe(null, <liquid:ethanol> * 40, <tfc:food/maize_grain>, 1024);
-Fermenter.addRecipe(null, <liquid:ethanol> * 80, <tfc:food/beet>, 2048);
-Fermenter.addRecipe(null, <liquid:ethanol> * 80, <tfc:food/soybean>, 2048);
-Fermenter.addRecipe(null, <liquid:ethanol> * 80, <tfc:food/sugarcane>, 2048);
-Fermenter.addRecipe(null, <liquid:ethanol> * 80, <tfc:food/red_apple>, 2048);
-Fermenter.addRecipe(null, <liquid:ethanol> * 80, <tfc:food/green_apple>, 2048);
-Fermenter.addRecipe(null, <liquid:ethanol> * 80, <tfc:food/potato>, 2048);
-Fermenter.addRecipe(null, <liquid:ethanol> * 1, <immersiveengineering:material:4>, 512);
+Fermenter.addRecipe(null, <liquid:ethanol> * 400, <tfc:food/maize_grain>, 1024);
+Fermenter.addRecipe(null, <liquid:ethanol> * 800, <tfc:food/beet>, 2048);
+Fermenter.addRecipe(null, <liquid:ethanol> * 800, <tfc:food/soybean>, 2048);
+Fermenter.addRecipe(null, <liquid:ethanol> * 800, <tfc:food/sugarcane>, 2048);
+Fermenter.addRecipe(null, <liquid:ethanol> * 800 <tfc:food/red_apple>, 2048);
+Fermenter.addRecipe(null, <liquid:ethanol> * 800, <tfc:food/green_apple>, 2048);
+Fermenter.addRecipe(null, <liquid:ethanol> * 800, <tfc:food/potato>, 2048);
+Fermenter.addRecipe(null, <liquid:ethanol> * 8, <immersiveengineering:material:4>, 512);
 
 
 #########################
@@ -344,23 +344,23 @@ Fermenter.addRecipe(null, <liquid:ethanol> * 1, <immersiveengineering:material:4
 Squeezer.removeFluidRecipe(<liquid:plantoil>);
 
 
-Squeezer.addRecipe(null, <liquid:plantoil> * 4, <immersiveengineering:seed>, 1024);
-Squeezer.addRecipe(null, <liquid:plantoil> * 120, <tfc:crop/seeds/maize>, 2048);
-Squeezer.addRecipe(null, <liquid:plantoil> * 120, <tfc:crop/seeds/rice>, 2048);
-Squeezer.addRecipe(null, <liquid:plantoil> * 120, <tfc:crop/seeds/beet>, 2048);
-Squeezer.addRecipe(null, <liquid:plantoil> * 120, <tfc:crop/seeds/onion>, 2048);
-Squeezer.addRecipe(null, <liquid:plantoil> * 120, <tfc:crop/seeds/green_bean>, 2048);
-Squeezer.addRecipe(null, <liquid:plantoil> * 120, <tfc:crop/seeds/garlic>, 2048);
-Squeezer.addRecipe(null, <liquid:plantoil> * 120, <tfc:crop/seeds/cabbage>, 2048);
+Squeezer.addRecipe(null, <liquid:plantoil> * 16, <immersiveengineering:seed>, 1024);
+Squeezer.addRecipe(null, <liquid:plantoil> * 1200, <tfc:crop/seeds/maize>, 2048);
+Squeezer.addRecipe(null, <liquid:plantoil> * 1200, <tfc:crop/seeds/rice>, 2048);
+Squeezer.addRecipe(null, <liquid:plantoil> * 1200, <tfc:crop/seeds/beet>, 2048);
+Squeezer.addRecipe(null, <liquid:plantoil> * 1200, <tfc:crop/seeds/onion>, 2048);
+Squeezer.addRecipe(null, <liquid:plantoil> * 1200, <tfc:crop/seeds/green_bean>, 2048);
+Squeezer.addRecipe(null, <liquid:plantoil> * 1200, <tfc:crop/seeds/garlic>, 2048);
+Squeezer.addRecipe(null, <liquid:plantoil> * 1200, <tfc:crop/seeds/cabbage>, 2048);
 
 
-Squeezer.addRecipe(null, <liquid:plantoil> * 240, <tfc:food/soybean>, 2048);
-Squeezer.addRecipe(null, <liquid:plantoil> * 240, <tfc:food/garlic>, 2048);
-Squeezer.addRecipe(null, <liquid:plantoil> * 240, <tfc:food/potato>, 2048);
-Squeezer.addRecipe(null, <liquid:plantoil> * 240, <tfc:food/onion>, 2048);
-Squeezer.addRecipe(null, <liquid:plantoil> * 240, <tfc:food/cabbage>, 2048);
-Squeezer.addRecipe(null, <liquid:plantoil> * 240, <tfc:food/green_bean>, 2048);
-Squeezer.addRecipe(null, <liquid:plantoil> * 240, <tfc:food/beet>, 2048);
+Squeezer.addRecipe(null, <liquid:plantoil> * 2400, <tfc:food/soybean>, 2048);
+Squeezer.addRecipe(null, <liquid:plantoil> * 2400, <tfc:food/garlic>, 2048);
+Squeezer.addRecipe(null, <liquid:plantoil> * 2400, <tfc:food/potato>, 2048);
+Squeezer.addRecipe(null, <liquid:plantoil> * 2400, <tfc:food/onion>, 2048);
+Squeezer.addRecipe(null, <liquid:plantoil> * 2400, <tfc:food/cabbage>, 2048);
+Squeezer.addRecipe(null, <liquid:plantoil> * 2400, <tfc:food/green_bean>, 2048);
+Squeezer.addRecipe(null, <liquid:plantoil> * 2400, <tfc:food/beet>, 2048);
 
 #Olive Oil
 Squeezer.addRecipe(null, <liquid:olive_oil> * 20, <tfc:food/olive_paste>, 2048);
