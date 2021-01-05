@@ -332,7 +332,7 @@ Fermenter.addRecipe(null, <liquid:ethanol> * 400, <tfc:food/maize_grain>, 1024);
 Fermenter.addRecipe(null, <liquid:ethanol> * 800, <tfc:food/beet>, 2048);
 Fermenter.addRecipe(null, <liquid:ethanol> * 800, <tfc:food/soybean>, 2048);
 Fermenter.addRecipe(null, <liquid:ethanol> * 800, <tfc:food/sugarcane>, 2048);
-Fermenter.addRecipe(null, <liquid:ethanol> * 800 <tfc:food/red_apple>, 2048);
+Fermenter.addRecipe(null, <liquid:ethanol> * 800, <tfc:food/red_apple>, 2048);
 Fermenter.addRecipe(null, <liquid:ethanol> * 800, <tfc:food/green_apple>, 2048);
 Fermenter.addRecipe(null, <liquid:ethanol> * 800, <tfc:food/potato>, 2048);
 Fermenter.addRecipe(null, <liquid:ethanol> * 8, <immersiveengineering:material:4>, 512);
