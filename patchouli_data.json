@@ -1,1 +1,16 @@
-{"bookGuiScale":0,"clickedVisualize":false,"bookData":{}}
+{
+  "bookGuiScale": 0,
+  "clickedVisualize": false,
+  "bookData": {
+    "tfc:book": {
+      "viewedEntries": [
+        "tfc:advanced_metalworking/steel"
+      ],
+      "bookmarks": [],
+      "history": [
+        "tfc:advanced_metalworking/steel"
+      ],
+      "completedManualQuests": []
+    }
+  }
+}

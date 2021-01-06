@@ -2,16 +2,16 @@ version:1343
 invertYMouse:false
 mouseSensitivity:0.5
 fov:0.5
-gamma:0.0
+gamma:1.0
 saturation:0.0
 renderDistance:12
-guiScale:2
+guiScale:3
 particles:0
 bobView:true
 anaglyph3d:false
 maxFps:120
 fboEnable:true
-difficulty:2
+difficulty:1
 fancyGraphics:true
 ao:2
 renderClouds:true
@@ -49,7 +49,7 @@ attackIndicator:1
 showSubtitles:false
 realmsNotifications:true
 enableWeakAttacks:false
-autoJump:true
+autoJump:false
 narrator:0
 tutorialStep:none
 key_key.attack:-100
@@ -59,8 +59,8 @@ key_key.left:30
 key_key.back:31
 key_key.right:32
 key_key.jump:57
-key_key.sneak:42
-key_key.sprint:29
+key_key.sneak:29
+key_key.sprint:42
 key_key.drop:16
 key_key.inventory:18
 key_key.chat:20
@@ -96,7 +96,7 @@ key_ir_keys.dead_mans_switch:55
 key_ir_keys.start_stop_engine:78
 key_ir_keys.bell:74
 key_ir_keys.config:181
-key_keybind.baublesinventory:48
+key_keybind.baublesinventory:0
 key_key.betterquesting.quests:41
 key_DropOff:45
 key_key.ftbutilities.nbt:49:ALT
@@ -154,7 +154,7 @@ key_key.journeymap.zoom_in:13
 key_key.journeymap.zoom_out:12
 key_key.journeymap.minimap_type:26
 key_key.journeymap.minimap_preset:43
-key_key.journeymap.create_waypoint:48
+key_key.journeymap.create_waypoint:0
 key_key.journeymap.toggle_waypoints:44
 key_key.journeymap.fullscreen_create_waypoint:48
 key_key.journeymap.fullscreen_chat_position:46
@@ -166,7 +166,7 @@ key_key.journeymap.fullscreen.north:200
 key_key.journeymap.fullscreen.south:208
 key_key.journeymap.fullscreen.east:205
 key_key.journeymap.fullscreen.west:203
-soundCategory_master:0.029801324
+soundCategory_master:0.0066225166
 soundCategory_music:1.0
 soundCategory_record:1.0
 soundCategory_weather:1.0

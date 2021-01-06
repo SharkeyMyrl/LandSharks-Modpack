@@ -69,7 +69,6 @@ static tfcMetalDusts as string[] = [
 	"beryllium",
 	"aluminium_brass",
 	"tungsten",
-	"wrought_iron",
 	"osmium",
 	"titanium",
 	"black_bronze",
@@ -95,8 +94,7 @@ static tfcMetalDusts as string[] = [
 	"constantan",
 	"manganese",
 	"tungsten_steel",
-	"blue_steel",
-	"aluminium"
+	"blue_steel"
 ];
 
 static tfcMetals as string[] = [
@@ -131,7 +129,6 @@ static tfcMetals as string[] = [
 	"beryllium",
 	"aluminium_brass",
 	"tungsten",
-	"wrought_iron",
 	"osmium",
 	"high_carbon_red_steel",
 	"titanium",
@@ -162,8 +159,7 @@ static tfcMetals as string[] = [
 	"constantan",
 	"manganese",
 	"tungsten_steel",
-	"blue_steel",
-	"aluminium"
+	"blue_steel"
 ];
 
 
@@ -455,3 +451,4 @@ static tfcOres as string[] = [
 	"carobbiite",
 	"arsenic"
 ];
+

@@ -100,3 +100,5 @@ recipes.addShaped(<immersivepetroleum:stone_decoration:0>*12, [[<immersiveengine
 recipes.addShaped(<immersivepetroleum:stone_decoration:0>*8, [[sand, <immersivepetroleum:material:0>, sand],
 																			  [gravel, <forge:bucketfilled>.withTag({FluidName: "fresh_water", Amount: 1000}), gravel],
 																			  [sand, <immersivepetroleum:material:0>, sand]]);
+
+<ore:slabStone>.mirror(<ore:slabStonePolished>);
