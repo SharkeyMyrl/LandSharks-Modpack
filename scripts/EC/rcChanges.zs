@@ -12,7 +12,7 @@ recipes.remove(<rs_ctr:constant>);
 recipes.remove(<rs_ctr:clock>);
 recipes.remove(<rs_ctr:wrench>);
 recipes.remove(<rs_ctr:assembler>);
-recipes.remove(<cd4017be_lib:m>);
+recipes.remove(<cd4017be_lib:m:403>);
 recipes.remove(<rs_ctr:slider>);
 recipes.remove(<rs_ctr:panel>);
 
@@ -29,10 +29,12 @@ recipes.addShapeless(<rs_ctr:block_wire>*4, [<ore:dustLapis>,<ore:string>]);
 recipes.addShapeless(<rs_ctr:tag>, [<minecraft:name_tag>]);
 
 recipes.addShaped(<rs_ctr:wrench>, [[null,<ore:stickWroughtIron>,null],[null,<ore:stickWroughtIron>,null],[null,<ore:plankWood>,null]]);
+recipes.addShaped(<rs_ctr:lamp>, [[null,<ore:dustRedstone,null],[null,<ore:slabStone>,null],[null,<rs_ctr:wire>,null]]);
+recipes.addShaped(<rs_ctr:constant>, [[null,<ore:redstoneTorch,null],[null,<ore:slabStone>,null],[null,<rs_ctr:wire>,null]]);
 
 recipes.addShaped(<rs_ctr:assembler>, [[<ore:slabStone>,<rs_ctr:wire>,<ore:slabStone>],[<ore:slabStone>,<ore:anvil>,<ore:slabStone>],[<ore:plankWood>,<ore:chest>,<ore:plankWood>]]);
 
-recipes.addShaped(<cd4017be_lib:m>, [[<rs_ctr:wire>,<ore:inductorCopper>,<rs_ctr:wire>]]);
+recipes.addShaped(<cd4017be_lib:m:403>, [[<rs_ctr:wire>,<ore:inductorCopper>,<rs_ctr:wire>]]);
 
 recipes.addShaped(<rs_ctr:slider>, [[null,null,null],[<ore:redstoneTorch>,null,<rs_ctr:wire>],[<ore:dustGraphite>,<ore:dustGraphite>,<ore:dustGraphite>]]);
 
