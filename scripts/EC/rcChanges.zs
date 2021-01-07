@@ -28,9 +28,10 @@ recipes.addShapeless(<rs_ctr:wire>*8, [<immersiveengineering:wirecoil:5>]);
 recipes.addShapeless(<rs_ctr:block_wire>*4, [<ore:dustLapis>,<ore:string>]);
 recipes.addShapeless(<rs_ctr:tag>, [<minecraft:name_tag>]);
 
-recipes.addShaped(<rs_ctr:wrench>, [[null,<ore:stickWroughtIron>,null],[null,<ore:stickWroughtIron>,null],[null,<ore:plankWood>,null]]);
-recipes.addShaped(<rs_ctr:lamp>, [[null,<ore:dustRedstone>,null],[null,<ore:slabStone>,null],[null,<rs_ctr:wire>,null]]);
-recipes.addShaped(<rs_ctr:constant>, [[null,<ore:redstoneTorch>,null],[null,<ore:slabStone>,null],[null,<rs_ctr:wire>,null]]);
+recipes.addShaped(<rs_ctr:wrench>*2, [[null,<ore:stickWroughtIron>,null],[null,<ore:stickWroughtIron>,null],[null,<ore:plankWood>,null]]);
+recipes.addShaped(<rs_ctr:lamp>*2, [[null,<ore:dustRedstone>,null],[null,<ore:slabStone>,null],[null,<rs_ctr:wire>,null]]);
+recipes.addShaped(<rs_ctr:constant>*2, [[null,<ore:redstoneTorch>,null],[null,<ore:slabStone>,null],[null,<rs_ctr:wire>,null]]);
+recipes.addShaped(<rs_ctr:clock>*2, [[null,null,null],[<rs_ctr:wire>,<minecraft:clock>,<rs_ctr:wire>],[null,null,null]]);
 
 recipes.addShaped(<rs_ctr:assembler>, [[<ore:slabStone>,<rs_ctr:wire>,<ore:slabStone>],[<ore:slabStone>,<ore:anvil>,<ore:slabStone>],[<ore:plankWood>,<ore:chest>,<ore:plankWood>]]);
 
