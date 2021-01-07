@@ -14,15 +14,17 @@ recipes.remove(<rs_ctr:wrench>);
 recipes.remove(<rs_ctr:assembler>);
 recipes.remove(<cd4017be_lib:m>);
 recipes.remove(<rs_ctr:slider>);
+recipes.remove(<rs_ctr:panel>);
 
 recipes.addShapeless(<rs_ctr:rs_port:0>, [<ore:dustRedstone>,<ore:slabStone>]);
 recipes.addShapeless(<rs_ctr:rs_port:1>, [<ore:redstoneTorch>,<ore:slabStone>]);
 recipes.addShapeless(<rs_ctr:rs_port:2>, [<ore:dustLapis>,<ore:slabStone>]);
 recipes.addShapeless(<rs_ctr:rs_port:3>, [<minecraft:observer>,<ore:slabStone>]);
+recipes.addShapeless(<rs_ctr:panel>, [<ore:paper>,<ore:slabStone>]);
 
 recipes.addShapeless(<rs_ctr:wire_anchor>, [<ore:barsIron>,<ore:barsIron>]);
 recipes.addShapeless(<rs_ctr:wire>*4, [<ore:dustRedstone>,<ore:string>]);
-recipes.addShapeless(<rs_ctr:wire>*8, [<immersiveengineering:wirecoil>]);
+recipes.addShapeless(<rs_ctr:wire>*8, [<immersiveengineering:wirecoil:5>]);
 recipes.addShapeless(<rs_ctr:block_wire>*4, [<ore:dustLapis>,<ore:string>]);
 recipes.addShapeless(<rs_ctr:tag>, [<minecraft:name_tag>]);
 
