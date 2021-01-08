@@ -14,6 +14,8 @@ import mods.immersiveengineering.Fermenter;
 import mods.immersiveengineering.MetalPress;
 import mods.immersiveengineering.Mixer;
 import mods.immersiveengineering.Squeezer;
+import mods.terrafirmacraft.Heating;
+import mods.terrafirmacraft.ItemRegistry;
 
 import scripts.EC.registers.gearDicts;
 import scripts.EC.registers.tfcMetals;
@@ -261,7 +263,7 @@ for metal2 in tfcMetalDusts{
 	var input = itemUtils.getItem("tfc:metal/ingot/"+ metal2);
 	var output = itemUtils.getItem("tfc:metal/dust/"+ metal2);
 
-	ArcFurnace.addRecipe(input, output, null, 2000, 2048);
+	ArcFurnace.addRecipe(input, output, null, 600, 2048);
 }
 ###IngotOre###
 for i in 0 to 10 {
@@ -364,4 +366,10 @@ Squeezer.addRecipe(null, <liquid:plantoil> * 2400, <tfc:food/beet>, 2048);
 
 #Olive Oil
 Squeezer.addRecipe(null, <liquid:olive_oil> * 20, <tfc:food/olive_paste>, 2048);
+
+###########
+# Misc Recipes #
+###########
+ItemRegistry.registerItemHeat(<immersiveengineering:material:18>, 0.35, 1500, false);
+Heating.addRecipe("hop_ingot_heating_redstoner",<immersiveengineering:material:18>, <immersiveengineering:material:19>, 1300, 1500);
 
