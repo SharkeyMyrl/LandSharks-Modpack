@@ -22,3 +22,14 @@ recipes.addShaped(<minecraft:redstone_lamp>*3,
 	[[<ore:tierOneSheet>,<ore:dustRedstone>,<ore:tierOneSheet>],
 	 [<ore:dustRedstone>,<ore:gemExquisite>,<ore:dustRedstone>],
 	 [<ore:tierOneSheet>,<ore:dustRedstone>,<ore:tierOneSheet>]]);
+
+recipes.removeShaped(<minecraft:clock>);
+recipes.addShaped(<minecraft:clock>,
+	[[null,<ore:dyeYellow>,null],
+	 [<ore:tierTwoRod>,<ore:gemNormal>,<ore:tierTwoRod>],
+	 [null,null,null]]);
+	 
+	 recipes.removeShapeless(<tfctech:powder/potash>);
+	 recipes.addShapeless(<tfctech:powder/potash>*4, [<tfctech:pot_potash>]);
+	 
+	 furnace.addRecipe(<tfctech:powder/ash>, <ore:dustWood>);
