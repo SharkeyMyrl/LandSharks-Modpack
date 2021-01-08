@@ -274,30 +274,30 @@ Crusher.addRecipe(<minecraft:sand>, <ore:gravel>, 2048);
 Crusher.removeRecipe(<minecraft:emerald>);
 
 
-AlloySmelter.addRecipe(<ore:ingotElectrum>.firstItem*2, <ore:ingotGold>, <ore:ingotSilver>, 2000);
-AlloySmelter.addRecipe(<ore:ingotConstantan>.firstItem*2, <ore:ingotCopper>, <ore:ingotNickel>, 2000);
-AlloySmelter.addRecipe(<tfc:metal/ingot/sterling_silver>*5, <ore:ingotCopper>*2, <ore:ingotSilver>*3, 2000);
-AlloySmelter.addRecipe(<ore:ingotBronze>.firstItem*5, <ore:ingotCopper>*4, <ore:ingotTin>, 2000);
-AlloySmelter.addRecipe(<tfc:metal/ingot/rose_gold>*10, <ore:ingotCopper>*3, <ore:ingotGold>*7, 2000);
-AlloySmelter.addRecipe(<ore:ingotBrass>.firstItem*5, <ore:ingotZinc>, <ore:ingotCopper>*4, 2000);
+AlloySmelter.addRecipe(<ore:ingotElectrum>.firstItem*2, <ore:ingotGold>, <ore:ingotSilver>, 1200);
+AlloySmelter.addRecipe(<ore:ingotConstantan>.firstItem*2, <ore:ingotCopper>, <ore:ingotNickel>, 1200);
+AlloySmelter.addRecipe(<tfc:metal/ingot/sterling_silver>*5, <ore:ingotCopper>*2, <ore:ingotSilver>*3, 3000);
+AlloySmelter.addRecipe(<ore:ingotBronze>.firstItem*5, <ore:ingotCopper>*4, <ore:ingotTin>, 3000);
+AlloySmelter.addRecipe(<tfc:metal/ingot/rose_gold>*10, <ore:ingotCopper>*3, <ore:ingotGold>*7, 6000);
+AlloySmelter.addRecipe(<ore:ingotBrass>.firstItem*5, <ore:ingotZinc>, <ore:ingotCopper>*4, 3000);
 BlastFurnace.addRecipe(<ore:ingotSteel>.firstItem, <ore:ingotIron>, 2000, <immersiveengineering:material:7>);
 BlastFurnace.addRecipe(<ore:blockSteel>.firstItem, <ore:blockIron>, 2000, <immersiveengineering:material:7>*9);
 
-ArcFurnace.addRecipe(<ore:ingotElectrum>.firstItem*2, <ore:ingotGold>, null, 2000, 2048, [<ore:ingotSilver>]);
-ArcFurnace.addRecipe(<ore:ingotConstantan>.firstItem*2, <ore:ingotCopper>, null, 2000, 2048, [<ore:ingotNickel>]);
-ArcFurnace.addRecipe(<tfc:metal/ingot/sterling_silver>*5, <ore:ingotCopper>*2, null, 20000, 2048, [<ore:ingotSilver>*3]);
-ArcFurnace.addRecipe(<ore:ingotBronze>.firstItem*5, <ore:ingotCopper>*4, null, 2000, 2048, [<ore:ingotTin>]);
-ArcFurnace.addRecipe(<tfc:metal/ingot/rose_gold>*10, <ore:ingotCopper>*3, null, 2000, 2048, [<ore:ingotGold>*7]);
-ArcFurnace.addRecipe(<ore:ingotBrass>.firstItem*5, <ore:ingotZinc>, null, 2000, 2048, [<ore:ingotCopper>*4]);
-ArcFurnace.addRecipe(<ore:ingotSteel>.firstItem, <ore:ingotIron>, null, 2000, 2048, [<ore:gemCoal>]);
-ArcFurnace.addRecipe(<ore:blockSteel>.firstItem, <ore:blockIron>, null, 2000, 2048, [<ore:blockCoal>]);
+ArcFurnace.addRecipe(<ore:ingotElectrum>.firstItem*2, <ore:ingotGold>, null, 1200, 2048, [<ore:ingotSilver>]);
+ArcFurnace.addRecipe(<ore:ingotConstantan>.firstItem*2, <ore:ingotCopper>, null, 1200, 2048, [<ore:ingotNickel>]);
+ArcFurnace.addRecipe(<tfc:metal/ingot/sterling_silver>*5, <ore:ingotCopper>*2, null, 3000, 2048, [<ore:ingotSilver>*3]);
+ArcFurnace.addRecipe(<ore:ingotBronze>.firstItem*5, <ore:ingotCopper>*4, null, 3000, 2048, [<ore:ingotTin>]);
+ArcFurnace.addRecipe(<tfc:metal/ingot/rose_gold>*10, <ore:ingotCopper>*3, null, 6000, 2048, [<ore:ingotGold>*7]);
+ArcFurnace.addRecipe(<ore:ingotBrass>.firstItem*5, <ore:ingotZinc>, null, 3000, 2048, [<ore:ingotCopper>*4]);
+ArcFurnace.addRecipe(<ore:ingotSteel>.firstItem, <ore:ingotIron>, null, 600, 2048, [<ore:gemCoal>]);
+ArcFurnace.addRecipe(<ore:blockSteel>.firstItem, <ore:blockIron>, null, 600, 2048, [<ore:blockCoal>]);
 
-ArcFurnace.addRecipe(<tfc:metal/ingot/weak_red_steel>*7, <tfc:metal/ingot/black_steel>*3, null, 20000, 2048, [<tfc:metal/ingot/bismuth_bronze>, <tfc:metal/ingot/sterling_silver>, <ore:ingotSteel>*2]);
-ArcFurnace.addRecipe(<tfc:metal/ingot/weak_blue_steel>*7, <tfc:metal/ingot/black_steel>*3, null, 20000, 2048, [<tfc:metal/ingot/rose_gold>, <ore:ingotBrass>, <ore:ingotSteel>*2]);
+ArcFurnace.addRecipe(<tfc:metal/ingot/weak_red_steel>*7, <tfc:metal/ingot/black_steel>*3, null, 6000, 2048, [<tfc:metal/ingot/bismuth_bronze>, <tfc:metal/ingot/sterling_silver>, <ore:ingotSteel>*2]);
+ArcFurnace.addRecipe(<tfc:metal/ingot/weak_blue_steel>*7, <tfc:metal/ingot/black_steel>*3, null, 6000, 2048, [<tfc:metal/ingot/rose_gold>, <ore:ingotBrass>, <ore:ingotSteel>*2]);
 ArcFurnace.addRecipe(<tfc:metal/ingot/weak_steel>*4, <tfc:metal/ingot/steel>*2, null, 2000, 2048, [<ore:ingotNickel>, <tfc:metal/ingot/black_bronze>]);
 
-ArcFurnace.addRecipe(<tfc:metal/ingot/black_bronze>*4, <ore:ingotCopper>*2, null, 20000, 2048, [<ore:ingotSilver>, <ore:ingotGold>]);
-ArcFurnace.addRecipe(<tfc:metal/ingot/bismuth_bronze>*10, <ore:ingotCopper>*5, null, 2000, 2048, [<tfc:metal/ingot/bismuth>*2, <ore:ingotZinc>*3]);
+ArcFurnace.addRecipe(<tfc:metal/ingot/black_bronze>*4, <ore:ingotCopper>*2, null, 2400, 2048, [<ore:ingotSilver>, <ore:ingotGold>]);
+ArcFurnace.addRecipe(<tfc:metal/ingot/bismuth_bronze>*10, <ore:ingotCopper>*5, null, 6000, 2048, [<tfc:metal/ingot/bismuth>*2, <ore:ingotZinc>*3]);
 
 
 
