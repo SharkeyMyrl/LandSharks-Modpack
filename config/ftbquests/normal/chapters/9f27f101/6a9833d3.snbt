@@ -1,0 +1,14 @@
+{
+	x: 1.0d,
+	y: 5.5d,
+	dependencies: [
+		"e8408e53"
+	],
+	tasks: [{
+		uid: "fae057cb",
+		type: "item",
+		items: [{
+			item: "tfc:fire_bricks"
+		}]
+	}]
+}

@@ -1,0 +1,16 @@
+{
+	x: 9.0d,
+	y: 3.0d,
+	dependencies: [
+		"09108bd4",
+		"db752bf1"
+	],
+	dependency_requirement: "one_completed",
+	tasks: [{
+		uid: "a0740547",
+		type: "item",
+		items: [{
+			item: "minecraft:torch"
+		}]
+	}]
+}

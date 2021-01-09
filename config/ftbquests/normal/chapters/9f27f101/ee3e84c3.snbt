@@ -1,0 +1,14 @@
+{
+	x: 5.5d,
+	y: 8.0d,
+	dependencies: [
+		"ae014b8b"
+	],
+	tasks: [{
+		uid: "4a6a94b0",
+		type: "item",
+		items: [{
+			item: "tfc:alabaster/raw/plain"
+		}]
+	}]
+}

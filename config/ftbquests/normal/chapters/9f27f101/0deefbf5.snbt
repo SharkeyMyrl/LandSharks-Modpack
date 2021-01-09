@@ -1,0 +1,27 @@
+{
+	x: 12.5d,
+	y: 0.0d,
+	dependencies: [
+		"1e95ae7c"
+	],
+	tasks: [{
+		uid: "2832d253",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				Parent: {
+					data: "pick",
+					id: "ore"
+				}
+			},
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any pick"
+				}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

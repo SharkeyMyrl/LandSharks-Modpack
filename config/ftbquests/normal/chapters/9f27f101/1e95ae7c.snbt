@@ -1,0 +1,27 @@
+{
+	x: 11.5d,
+	y: 0.5d,
+	dependencies: [
+		"b90109e5"
+	],
+	tasks: [{
+		uid: "b7071a5d",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				Parent: {
+					data: "anvil",
+					id: "ore"
+				}
+			},
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any anvil"
+				}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

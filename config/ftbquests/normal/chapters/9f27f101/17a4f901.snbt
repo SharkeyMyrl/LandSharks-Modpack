@@ -1,0 +1,28 @@
+{
+	x: 8.0d,
+	y: 0.5d,
+	dependencies: [
+		"09108bd4",
+		"c0b040ce"
+	],
+	tasks: [{
+		uid: "010bef81",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				Parent: {
+					data: "axeStone",
+					id: "ore"
+				}
+			},
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any axeStone"
+				}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

@@ -1,0 +1,27 @@
+{
+	x: 2.0d,
+	y: 1.0d,
+	dependencies: [
+		"203dd865"
+	],
+	tasks: [{
+		uid: "227d3400",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				Parent: {
+					heat: 0.0f,
+					fluidMode: 0b,
+					ticks: -1L,
+					items: {
+						Size: 4,
+						Items: []
+					}
+				}
+			},
+			id: "tfc:ceramics/fired/vessel"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

@@ -1,0 +1,22 @@
+{
+	x: 12.5d,
+	y: 4.5d,
+	hide_dependency_lines: true,
+	dependencies: [
+		"f4853c2a"
+	],
+	tasks: [{
+		uid: "5b64ffc8",
+		type: "item",
+		items: [{
+			item: "minecraft:leather_chestplate"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "51d3f44b",
+		type: "random",
+		table: 0
+	}]
+}

@@ -1,0 +1,14 @@
+{
+	x: 15.0d,
+	y: 1.5d,
+	dependencies: [
+		"d205a392"
+	],
+	tasks: [{
+		uid: "db080069",
+		type: "item",
+		items: [{
+			item: "waterflasks:iron_flask"
+		}]
+	}]
+}

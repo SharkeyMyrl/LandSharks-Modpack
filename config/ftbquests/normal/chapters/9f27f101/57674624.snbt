@@ -1,0 +1,14 @@
+{
+	x: 5.5d,
+	y: 9.0d,
+	dependencies: [
+		"ee3e84c3"
+	],
+	tasks: [{
+		uid: "4d41991d",
+		type: "item",
+		items: [{
+			item: "tfcmedicinal:vial_heater"
+		}]
+	}]
+}

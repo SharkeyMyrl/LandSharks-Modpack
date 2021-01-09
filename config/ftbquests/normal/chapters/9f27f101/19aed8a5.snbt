@@ -1,0 +1,36 @@
+{
+	x: 13.5d,
+	y: 3.5d,
+	hide_dependency_lines: true,
+	dependencies: [
+		"77629b3a"
+	],
+	tasks: [{
+		uid: "cd4ae7fd",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				Parent: {
+					heat: 0.0f,
+					ticks: -1L,
+					forge: {
+						work: 0,
+						steps: {
+							last: -1,
+							third: -1,
+							second: -1
+						}
+					}
+				}
+			},
+			id: "tfc:metal/helmet/wrought_iron"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "ec9dcc08",
+		type: "random",
+		table: 0
+	}]
+}

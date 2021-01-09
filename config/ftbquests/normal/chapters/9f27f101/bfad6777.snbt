@@ -1,0 +1,25 @@
+{
+	x: 9.0d,
+	y: 0.5d,
+	dependencies: [
+		"17a4f901"
+	],
+	tasks: [{
+		uid: "0a4d562b",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				Parent: {
+					data: "logWood",
+					id: "ore"
+				}
+			},
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any logWood"
+				}
+			}
+		}]
+	}]
+}

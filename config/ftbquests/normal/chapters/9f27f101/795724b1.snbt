@@ -1,0 +1,21 @@
+{
+	x: 4.0d,
+	y: 9.0d,
+	dependencies: [
+		"57674624"
+	],
+	tasks: [{
+		uid: "ec3993e7",
+		type: "item",
+		items: [{
+			id: "tfcmedicinal:medicine_vial",
+			tag: {
+				Fluid: {
+					FluidName: "warming_panacea",
+					Amount: 100
+				}
+			}
+		}],
+		ignore_nbt: 1b
+	}]
+}

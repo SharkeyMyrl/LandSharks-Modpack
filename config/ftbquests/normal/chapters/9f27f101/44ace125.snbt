@@ -1,0 +1,14 @@
+{
+	x: 9.5d,
+	y: -2.0d,
+	dependencies: [
+		"f4853c2a"
+	],
+	tasks: [{
+		uid: "798109e4",
+		type: "item",
+		items: [{
+			item: "waterflasks:leather_side"
+		}]
+	}]
+}

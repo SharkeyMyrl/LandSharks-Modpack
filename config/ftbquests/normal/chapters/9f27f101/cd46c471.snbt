@@ -1,0 +1,21 @@
+{
+	x: 5.5d,
+	y: 4.5d,
+	dependencies: [
+		"6a8f04d2"
+	],
+	tasks: [{
+		uid: "affbf575",
+		type: "item",
+		items: [{
+			item: "tfctech:smeltery_firebox"
+		}]
+	},
+	{
+		uid: "4b8fd45f",
+		type: "item",
+		items: [{
+			item: "tfctech:smeltery_cauldron"
+		}]
+	}]
+}

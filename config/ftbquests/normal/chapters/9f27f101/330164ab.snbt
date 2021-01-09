@@ -1,0 +1,14 @@
+{
+	x: 4.5d,
+	y: 5.0d,
+	dependencies: [
+		"cd46c471"
+	],
+	tasks: [{
+		uid: "6e74d1de",
+		type: "item",
+		items: [{
+			item: "minecraft:glass_bottle"
+		}]
+	}]
+}

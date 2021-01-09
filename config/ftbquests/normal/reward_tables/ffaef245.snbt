@@ -1,0 +1,209 @@
+{
+	title: "Loot",
+	empty_weight: 2,
+	loot_size: 1,
+	rewards: [{
+		item: {
+			ForgeCaps: {
+				"tfc:food": {
+					traits: [],
+					creationDate: 198000L
+				},
+				Parent: {
+					traits: [],
+					creationDate: 198000L,
+					foodData: {
+						fruit: 0.0f,
+						sat: 3.0f,
+						meat: 0.0f,
+						veg: 0.0f,
+						buffed: 0b,
+						decay: 4.5f,
+						grain: 0.0f,
+						water: 0.0f,
+						dairy: 0.0f,
+						food: 4
+					}
+				}
+			},
+			id: "tfc:food/barley_bread_sandwich"
+		},
+		count: 5,
+		weight: 4
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"tfc:food": {
+					traits: [],
+					creationDate: 204000L
+				},
+				Parent: {
+					traits: [],
+					creationDate: 204000L,
+					foodData: {
+						fruit: 0.0f,
+						sat: 3.0f,
+						meat: 0.0f,
+						veg: 0.0f,
+						buffed: 0b,
+						decay: 4.5f,
+						grain: 0.0f,
+						water: 0.0f,
+						dairy: 0.0f,
+						food: 4
+					}
+				}
+			},
+			id: "tfc:food/cornbread_sandwich"
+		},
+		count: 5,
+		weight: 4
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"tfc:food": {
+					traits: [],
+					creationDate: 204000L
+				},
+				Parent: {
+					traits: [],
+					creationDate: 204000L,
+					foodData: {
+						fruit: 0.0f,
+						sat: 3.0f,
+						meat: 0.0f,
+						veg: 0.0f,
+						buffed: 0b,
+						decay: 4.5f,
+						grain: 0.0f,
+						water: 0.0f,
+						dairy: 0.0f,
+						food: 4
+					}
+				}
+			},
+			id: "tfc:food/oat_bread_sandwich"
+		},
+		count: 5,
+		weight: 4
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"tfc:food": {
+					traits: [],
+					creationDate: 204000L
+				},
+				Parent: {
+					traits: [],
+					creationDate: 204000L,
+					foodData: {
+						fruit: 0.0f,
+						sat: 3.0f,
+						meat: 0.0f,
+						veg: 0.0f,
+						buffed: 0b,
+						decay: 4.5f,
+						grain: 0.0f,
+						water: 0.0f,
+						dairy: 0.0f,
+						food: 4
+					}
+				}
+			},
+			id: "tfc:food/rice_bread_sandwich"
+		},
+		count: 5,
+		weight: 4
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"tfc:food": {
+					traits: [],
+					creationDate: 204000L
+				},
+				Parent: {
+					traits: [],
+					creationDate: 204000L,
+					foodData: {
+						fruit: 0.0f,
+						sat: 3.0f,
+						meat: 0.0f,
+						veg: 0.0f,
+						buffed: 0b,
+						decay: 4.5f,
+						grain: 0.0f,
+						water: 0.0f,
+						dairy: 0.0f,
+						food: 4
+					}
+				}
+			},
+			id: "tfc:food/rye_bread_sandwich"
+		},
+		count: 5,
+		weight: 4
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"tfc:food": {
+					traits: [],
+					creationDate: 204000L
+				},
+				Parent: {
+					traits: [],
+					creationDate: 204000L,
+					foodData: {
+						fruit: 0.0f,
+						sat: 3.0f,
+						meat: 0.0f,
+						veg: 0.0f,
+						buffed: 0b,
+						decay: 4.5f,
+						grain: 0.0f,
+						water: 0.0f,
+						dairy: 0.0f,
+						food: 4
+					}
+				}
+			},
+			id: "tfc:food/wheat_bread_sandwich"
+		},
+		count: 5,
+		weight: 4
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"tfc:item_forge": {
+					heat: 0.0f,
+					ticks: -1L,
+					forge: {
+						work: 0,
+						steps: {
+							last: -1,
+							third: -1,
+							second: -1
+						}
+					}
+				}
+			},
+			id: "minecraft:gold_nugget"
+		}
+	},
+	{
+		item: "minecraft:deadbush",
+		weight: 3
+	},
+	{
+		item: "minecraft:deadbush",
+		weight: 3
+	},
+	{
+		item: "elevatorid:elevator_white"
+	}]
+}

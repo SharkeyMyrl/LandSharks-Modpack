@@ -1,0 +1,21 @@
+{
+	x: 4.5d,
+	y: 10.0d,
+	dependencies: [
+		"57674624"
+	],
+	tasks: [{
+		uid: "d3150831",
+		type: "item",
+		items: [{
+			id: "tfcmedicinal:medicine_vial",
+			tag: {
+				Fluid: {
+					FluidName: "health_boost_concoction",
+					Amount: 100
+				}
+			}
+		}],
+		ignore_nbt: 1b
+	}]
+}

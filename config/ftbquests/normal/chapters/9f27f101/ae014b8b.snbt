@@ -1,0 +1,16 @@
+{
+	x: 5.5d,
+	y: 7.0d,
+	dependencies: [
+		"e8820b4e",
+		"6e2da68a"
+	],
+	dependency_requirement: "one_completed",
+	tasks: [{
+		uid: "ce07f6b9",
+		type: "item",
+		items: [{
+			item: "tfc:ore/gypsum"
+		}]
+	}]
+}

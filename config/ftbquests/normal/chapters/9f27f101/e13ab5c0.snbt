@@ -1,0 +1,28 @@
+{
+	x: 5.5d,
+	y: 2.0d,
+	shape: "rsquare",
+	can_repeat: true,
+	size: 2.0d,
+	tasks: [{
+		uid: "bf66d0c5",
+		type: "checkmark",
+		title: "TFC: TNG Manual",
+		icon: {
+			id: "patchouli:guide_book",
+			tag: {
+				"patchouli:book": "tfc:book"
+			}
+		}
+	}],
+	rewards: [{
+		uid: "e9005e02",
+		type: "item",
+		item: {
+			id: "patchouli:guide_book",
+			tag: {
+				"patchouli:book": "tfc:book"
+			}
+		}
+	}]
+}

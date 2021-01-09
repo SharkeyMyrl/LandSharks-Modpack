@@ -1,0 +1,11 @@
+{
+	x: 4.0d,
+	y: 4.0d,
+	tasks: [{
+		uid: "f2c6c232",
+		type: "item",
+		items: [{
+			item: "tfc:powder/kaolinite"
+		}]
+	}]
+}

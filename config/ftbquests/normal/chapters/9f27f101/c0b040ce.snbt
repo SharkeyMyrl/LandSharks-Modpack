@@ -1,0 +1,22 @@
+{
+	x: 5.5d,
+	y: 0.5d,
+	tasks: [{
+		uid: "4df270cb",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				Parent: {
+					data: "rock",
+					id: "ore"
+				}
+			},
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any rock"
+				}
+			}
+		}]
+	}]
+}

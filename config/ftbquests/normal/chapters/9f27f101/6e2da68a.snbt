@@ -1,0 +1,15 @@
+{
+	x: 5.5d,
+	y: 5.5d,
+	dependencies: [
+		"cd46c471"
+	],
+	tasks: [{
+		uid: "bffb39bd",
+		type: "item",
+		items: [{
+			item: "tfcmedicinal:medicine_vial"
+		}],
+		ignore_nbt: 1b
+	}]
+}

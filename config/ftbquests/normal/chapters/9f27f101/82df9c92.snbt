@@ -1,0 +1,56 @@
+{
+	x: 14.5d,
+	y: 0.5d,
+	dependencies: [
+		"77629b3a"
+	],
+	tasks: [{
+		uid: "214c317f",
+		type: "item",
+		items: [{
+			item: "tfc:blast_furnace"
+		}]
+	},
+	{
+		uid: "4079b08d",
+		type: "item",
+		items: [{
+			item: "tfc:fire_bricks"
+		}],
+		count: 4L
+	},
+	{
+		uid: "c22cd981",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"tfc:item_forge": {
+					heat: 0.0f,
+					ticks: -1L,
+					forge: {
+						work: 0,
+						steps: {
+							last: -1,
+							third: -1,
+							second: -1
+						}
+					}
+				},
+				Parent: {
+					heat: 0.0f,
+					ticks: -1L,
+					forge: {
+						work: 0,
+						steps: {
+							last: -1,
+							third: -1,
+							second: -1
+						}
+					}
+				}
+			},
+			id: "tfc:metal/sheet/wrought_iron"
+		}],
+		count: 12L
+	}]
+}

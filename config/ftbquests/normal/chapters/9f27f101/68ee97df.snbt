@@ -1,0 +1,28 @@
+{
+	x: 7.0d,
+	y: -0.5d,
+	dependencies: [
+		"09108bd4",
+		"c0b040ce"
+	],
+	tasks: [{
+		uid: "bf11a337",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				Parent: {
+					data: "knifeStone",
+					id: "ore"
+				}
+			},
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any knifeStone"
+				}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

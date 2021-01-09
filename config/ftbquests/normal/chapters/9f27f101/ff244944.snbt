@@ -1,0 +1,22 @@
+{
+	x: 12.5d,
+	y: 6.5d,
+	hide_dependency_lines: true,
+	dependencies: [
+		"f4853c2a"
+	],
+	tasks: [{
+		uid: "f645f66a",
+		type: "item",
+		items: [{
+			item: "minecraft:leather_boots"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "631f6952",
+		type: "random",
+		table: 0
+	}]
+}

@@ -1,0 +1,17 @@
+{
+	title: "Engineer's Beginnings",
+	icon: "immersiveengineering:tool 1 3",
+	x: 0.5d,
+	y: 0.0d,
+	hide: true,
+	tasks: [{
+		uid: "9055dd7f",
+		type: "gamestage",
+		stage: "steel"
+	}],
+	rewards: [{
+		uid: "2cfc3906",
+		type: "item",
+		item: "immersiveengineering:tool 1 3"
+	}]
+}

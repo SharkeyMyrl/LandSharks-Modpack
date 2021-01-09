@@ -1,0 +1,17 @@
+{
+	x: 7.0d,
+	y: 2.0d,
+	tasks: [{
+		uid: "22857512",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"tfc:item_size": {
+					heat: 0.0f,
+					ticks: -1L
+				}
+			},
+			id: "minecraft:stick"
+		}]
+	}]
+}

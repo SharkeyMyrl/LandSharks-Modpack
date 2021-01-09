@@ -235,39 +235,39 @@ recipes.addShaped(<immersiveintelligence:skycrate_mount:1>,
 	 [null,<ore:basicSheetMetalSlice>,null]]);
 
 #NEEDS FIXING	 
-	 recipes.removeShaped(<immersiveintelligence:precission_tool:1>);
+recipes.removeShaped(<immersiveintelligence:precission_tool:1>);
 recipes.addShaped(<immersiveintelligence:precission_tool:1>,
-	[[<immersiveintelligence:precission_tool:1>,<ore:tierThreeRod>,null],
+	[[<immersiveintelligence:material:13>,<ore:tierThreeRod>,null],
 	 [<immersiveengineering:drillhead:1>,null,<ore:tierThreeRod>],
 	 [null,<immersiveengineering:wirecoil>,<ore:basicSheetMetalSlice>]]);
 	 
-	 recipes.removeShaped(<immersiveintelligence:precission_tool>);
+recipes.removeShaped(<immersiveintelligence:precission_tool>);
 recipes.addShaped(<immersiveintelligence:precission_tool>,
-	[[<immersiveintelligence:precission_tool:1>,<ore:tierThreeRod>,null],
+	[[<immersiveintelligence:material:13>,<ore:tierThreeRod>,null],
 	 [<immersiveintelligence:sawblade>,null,<ore:tierThreeRod>],
 	 [null,<immersiveengineering:wirecoil>,<ore:basicSheetMetalSlice>]]);
 	 
-	 recipes.removeShaped(<immersiveintelligence:precission_tool:5>);
+recipes.removeShaped(<immersiveintelligence:precission_tool:5>);
 recipes.addShaped(<immersiveintelligence:precission_tool:5>,
-	[[<immersiveintelligence:precission_tool:1>,<ore:tierThreeRod>,null],
+	[[<immersiveintelligence:material:13>,<ore:tierThreeRod>,null],
 	 [<ore:hammerHead>,null,<ore:tierThreeRod>],
 	 [null,<immersiveengineering:wirecoil>,<ore:basicSheetMetalSlice>]]);
 	 
-	 recipes.removeShaped(<immersiveintelligence:precission_tool:2>);
+recipes.removeShaped(<immersiveintelligence:precission_tool:2>);
 recipes.addShaped(<immersiveintelligence:precission_tool:2>,
-	[[<immersiveintelligence:precission_tool:1>,<ore:tierThreeRod>,null],
+	[[<immersiveintelligence:material:13>,<ore:tierThreeRod>,null],
 	 [<ore:tierThreeLongRod>,null,<ore:tierThreeRod>],
 	 [null,<immersiveengineering:wirecoil>,<ore:basicSheetMetalSlice>]]);
 	 
-	 recipes.removeShaped(<immersiveintelligence:precission_tool:4>);
+recipes.removeShaped(<immersiveintelligence:precission_tool:4>);
 recipes.addShaped(<immersiveintelligence:precission_tool:4>,
-	[[<immersiveintelligence:precission_tool:1>,<ore:tierThreeRod>,null],
+	[[<immersiveintelligence:material:13>,<ore:tierThreeRod>,null],
 	 [<immersiveengineering:graphite_electrode>,null,<ore:tierThreeRod>],
 	 [null,<immersiveengineering:wirecoil>,<ore:basicSheetMetalSlice>]]);
 	 
-	 recipes.removeShaped(<immersiveintelligence:precission_tool:3>);
+recipes.removeShaped(<immersiveintelligence:precission_tool:3>);
 recipes.addShaped(<immersiveintelligence:precission_tool:3>,
-	[[<immersiveintelligence:precission_tool:1>,<ore:tierThreeRod>,null],
+	[[<immersiveintelligence:material:13>,<ore:tierThreeRod>,null],
 	 [<ore:tierFourRod>,null,<ore:tierThreeRod>],
 	 [null,<immersiveengineering:wirecoil>,<ore:basicSheetMetalSlice>]]);
 	 

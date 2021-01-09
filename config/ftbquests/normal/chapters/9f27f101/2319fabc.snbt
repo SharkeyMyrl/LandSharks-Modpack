@@ -1,0 +1,36 @@
+{
+	x: 15.5d,
+	y: 3.5d,
+	hide_dependency_lines: true,
+	dependencies: [
+		"bbf30ca3"
+	],
+	tasks: [{
+		uid: "be83865c",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				Parent: {
+					heat: 0.0f,
+					ticks: -1L,
+					forge: {
+						work: 0,
+						steps: {
+							last: -1,
+							third: -1,
+							second: -1
+						}
+					}
+				}
+			},
+			id: "tfc:metal/helmet/red_steel"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "0542cb46",
+		type: "random",
+		table: 0
+	}]
+}

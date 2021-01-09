@@ -1,0 +1,94 @@
+{
+	x: 4.0d,
+	y: 0.5d,
+	tasks: [{
+		uid: "5d2c042c",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				Parent: {
+					data: "gemExquisite",
+					id: "ore"
+				}
+			},
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any gemExquisite"
+				}
+			}
+		}]
+	},
+	{
+		uid: "751293c2",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				Parent: {
+					data: "gemFlawless",
+					id: "ore"
+				}
+			},
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any gemFlawless"
+				}
+			}
+		}]
+	},
+	{
+		uid: "b7504c1d",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				Parent: {
+					data: "gemChipped",
+					id: "ore"
+				}
+			},
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any gemChipped"
+				}
+			}
+		}]
+	},
+	{
+		uid: "9c430a97",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				Parent: {
+					data: "gemFlawed",
+					id: "ore"
+				}
+			},
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any gemFlawed"
+				}
+			}
+		}]
+	},
+	{
+		uid: "ae253e3e",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				Parent: {
+					data: "gemNormal",
+					id: "ore"
+				}
+			},
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any gemNormal"
+				}
+			}
+		}]
+	}]
+}

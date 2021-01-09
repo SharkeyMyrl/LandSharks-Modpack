@@ -1,0 +1,23 @@
+{
+	x: 5.5d,
+	y: 3.5d,
+	tasks: [{
+		uid: "f117885b",
+		type: "item",
+		title: "Any Silica Sand",
+		items: [{
+			ForgeCaps: {
+				Parent: {
+					data: "sandSilica",
+					id: "ore"
+				}
+			},
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any sandSilica"
+				}
+			}
+		}]
+	}]
+}

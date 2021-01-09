@@ -1,0 +1,14 @@
+{
+	x: 9.0d,
+	y: 2.0d,
+	dependencies: [
+		"db752bf1"
+	],
+	tasks: [{
+		uid: "56fe8d08",
+		type: "item",
+		items: [{
+			item: "tfc:stick_bundle"
+		}]
+	}]
+}
