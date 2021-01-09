@@ -120,7 +120,7 @@ recipes.removeShaped(<logisticspipes:module_terminus>);
 mods.immersiveintelligence.PrecissionAssembler.addRecipe(<logisticspipes:module_terminus>, null,[<logisticspipes:module_blank>, <ore:rubber>*2, <immersiveintelligence:data_wire>, <ore:glue>],["welder","inserter"], ["inserter pick first","welder work main","inserter drop main"], 2000, 2000);
 
 recipes.removeShaped(<logisticspipes:module_extractor_advanced>);
-mods.immersiveintelligence.PrecissionAssembler.addRecipe(<logisticspipes:module_extractor_advanced>, null,[<logisticspipes:module_blank>, <ore:rubber>*2, <immersiveintelligence:data_wire>, <immersiveintelligence:material:20004>],["welder","inserter"], ["inserter pick first","welder work main","inserter drop main"], 2000, 2000);
+mods.immersiveintelligence.PrecissionAssembler.addRecipe(<logisticspipes:module_extractor_advanced>, null,[<logisticspipes:module_blank>, <ore:rubber>*2, <immersiveintelligence:data_wire>, <immersiveintelligence:material:14>],["welder","inserter"], ["inserter pick first","welder work main","inserter drop main"], 2000, 2000);
 
 recipes.removeShaped(<logisticspipes:module_provider>);
 mods.immersiveintelligence.PrecissionAssembler.addRecipe(<logisticspipes:module_provider>, null,[<logisticspipes:module_blank>, <ore:rubber>*2, <immersiveintelligence:data_wire>, <immersiveintelligence:data_connector:5>],["welder","inserter"], ["inserter pick first","welder work main","inserter drop main"], 2000, 2000);
