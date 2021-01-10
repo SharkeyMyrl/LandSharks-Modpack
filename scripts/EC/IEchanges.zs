@@ -234,6 +234,19 @@ for each in plates{
 
 MetalPress.addRecipe(<immersiverailroading:item_rail_part>.withTag({}), <tfctech:metal/steel_rod>, <immersiveengineering:mold:2>, 2000, 2);
 
+<<<<<<< HEAD
+=======
+for rods in tfcMetals{
+	var output = itemUtils.getItem("tfc:metal/"+rods+"_rod");
+	var input = itemUtils.getItem("tfc:metal/"+rods+"_long_rod");
+	MetalPress.addRecipe(output, input, <immersiveengineering:mold:2>, 2000, 2);
+	var output2 = itemUtils.getItem("tfc:metal/"+rods+"_long_rod");
+	var input2 = itemUtils.getItem("tfc:metal/ingot/"+ rods);
+	MetalPress.addRecipe(output2, input2, <immersiveengineering:mold:2>, 2000, 1);
+}
+
+
+>>>>>>> 3dedec3eaf81e89f026163b0918856414e356512
 for metal3 in tfcMetals{
     MetalPress.removeRecipe(itemUtils.getItem("tfc:metal/sheet/"+ metal3));
 	var output = itemUtils.getItem("tfc:metal/double_ingot/"+ metal3);
