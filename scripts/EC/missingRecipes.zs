@@ -30,6 +30,9 @@ recipes.addShaped(<minecraft:iron_block>, [[iron, iron, iron],
 recipes.remove(<hooked:hook:1>);	
 recipes.remove(<hooked:microcrafting:2>);	
 recipes.remove(<hooked:microcrafting:3>);						
+recipes.addShaped(<hooked:microcrafting:3>, [[<hooked:microcrafting:2>, null, null],
+									[null, <hooked:microcrafting:2>, null],
+									[null, null, <hooked:microcrafting:2>]]);
 recipes.addShaped(<hooked:hook:1>, [[iron, iron, iron],
 									[null, <hooked:microcrafting:3>, iron],
 									[<hooked:microcrafting:3>, null, iron]]);

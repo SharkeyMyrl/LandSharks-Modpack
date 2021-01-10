@@ -62,9 +62,21 @@ recipes.addShaped(<immersiveintelligence:material:13>,
 #Old recipe is still present	
 recipes.removeShaped(<immersiveintelligence:material_ingot:5>);
 recipes.addShaped(<immersiveintelligence:material_ingot:5>,
-	[[<ore:dyeRed>,null,null],
-	 [<tfc:ore/small/magnetite>,<tfc:metal/ingot/wrought_iron>,<tfc:ore/small/magnetite>],
-	 [null,null,<ore:dyeBlue>]]);
+    [[<ore:dyeRed>,null,<tfc:ore/magnetite:1>],
+     [null,<tfc:metal/ingot/wrought_iron>,null],
+     [<tfc:ore/magnetite:1>,null,<ore:dyeBlue>]]);
+
+
+recipes.addShaped(<immersiveintelligence:material_ingot:5>*2,
+    [[<ore:dyeRed>,<tfc:ore/magnetite>,<tfc:metal/ingot/wrought_iron>],
+     [null,null,null],
+     [<tfc:metal/ingot/wrought_iron>,<tfc:ore/magnetite>,<ore:dyeBlue>]]);
+
+
+recipes.addShaped(<immersiveintelligence:material_ingot:5>*3,
+    [[<ore:dyeRed>,null,<tfc:metal/ingot/wrought_iron>],
+     [<tfc:ore/magnetite:2>,<tfc:metal/ingot/wrought_iron>,<tfc:ore/magnetite:2>],
+     [<tfc:metal/ingot/wrought_iron>,null,<ore:dyeBlue>]]);
 	 
 recipes.removeShapeless(<immersiveintelligence:material:20>);
 recipes.addShaped(<immersiveintelligence:material:20>*2,

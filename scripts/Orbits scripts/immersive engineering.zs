@@ -85,8 +85,8 @@ recipes.addShaped(<immersiveintelligence:drillhead:2>,
  
 recipes.removeShaped(<immersiveintelligence:drillhead>);
 recipes.addShaped(<immersiveintelligence:drillhead>,
-	[[<ore:tierSixScrew>,<tfc:metal/sheet/tungsten_steel>,<ore:tierSixScrew>],
-	 [<tfc:metal/sheet/tungsten_steel>,<ore:tierSixDoubleIngot>,<tfc:metal/sheet/tungsten_steel>],
+	[[<ore:tierSixScrew>,<tfc:metal/sheet/tungsten>,<ore:tierSixScrew>],
+	 [<tfc:metal/sheet/tungsten>,<ore:tierSixDoubleIngot>,<tfc:metal/sheet/tungsten>],
 	 [null,<ore:tierSixLongRod>,null]]);
  
 recipes.removeShaped(<immersiveintelligence:drillhead:3>);
@@ -238,7 +238,7 @@ recipes.addShaped(<immersiveengineering:metal_device0:2>,
 recipes.removeShaped(<immersiveengineering:wooden_device0:2>);
 recipes.addShaped(<immersiveengineering:wooden_device0:2>,
 	[[<ore:tierThreeIngot>,<engineersdecor:halfslab_treated_wood>,<engineersdecor:halfslab_treated_wood>],
-	 [<ore:tierThreeBolt>,<ore:tierFourBolt>,<engineersdecor:treated_wood_pole>],
+	 [<ore:tierThreeBolt>,<ore:tierThreeBolt>,<engineersdecor:treated_wood_pole>],
 	 [<engineersdecor:treated_wood_crafting_table>,<ore:tierThreeScrew>,<engineersdecor:treated_wood_pole>]]);
 	 
 recipes.removeShaped(<immersiveengineering:wooden_device1>);
