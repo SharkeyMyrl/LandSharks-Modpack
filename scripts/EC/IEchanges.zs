@@ -118,6 +118,17 @@ var IETMP as IItemStack[] = [
 	<immersiveintelligence:material_gem:1>,
 	<immersiveintelligence:material:18>,
 	<immersiveintelligence:material_dust:9>,
+	<immersiveengineering:material:1>,
+	<immersiveengineering:material:2>,
+	<immersiveengineering:material:3>,
+	<immersiveposts:metal_rods:0>,
+	<immersiveposts:metal_rods:1>,
+	<immersiveposts:metal_rods:2>,
+	<immersiveposts:metal_rods:3>,
+	<immersiveposts:metal_rods:4>,
+	<immersiveposts:metal_rods:5>,
+	<immersiveposts:metal_rods:6>,
+	<immersiveposts:metal_rods:7>,
 	<immersiveengineering:metal:0>,
 	<immersiveengineering:metal:1>,
 	<immersiveengineering:metal:2>,
@@ -189,6 +200,7 @@ for ieMetal in IETMP{
 	AlloySmelter.removeRecipe(ieMetal);
 	BlastFurnace.removeRecipe(ieMetal);
 	Crusher.removeRecipe(ieMetal);
+	MetalPress.removeRecipe(ieMetal);
 }
 
 
@@ -221,7 +233,6 @@ for each in plates{
 }
 
 MetalPress.addRecipe(<immersiverailroading:item_rail_part>.withTag({}), <tfctech:metal/steel_rod>, <immersiveengineering:mold:2>, 2000, 2);
-
 
 for metal3 in tfcMetals{
     MetalPress.removeRecipe(itemUtils.getItem("tfc:metal/sheet/"+ metal3));
