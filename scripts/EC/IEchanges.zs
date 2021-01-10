@@ -118,17 +118,6 @@ var IETMP as IItemStack[] = [
 	<immersiveintelligence:material_gem:1>,
 	<immersiveintelligence:material:18>,
 	<immersiveintelligence:material_dust:9>,
-	<immersiveengineering:material:1>,
-	<immersiveengineering:material:2>,
-	<immersiveengineering:material:3>,
-	<immersiveposts:metal_rods:0>,
-	<immersiveposts:metal_rods:1>,
-	<immersiveposts:metal_rods:2>,
-	<immersiveposts:metal_rods:3>,
-	<immersiveposts:metal_rods:4>,
-	<immersiveposts:metal_rods:5>,
-	<immersiveposts:metal_rods:6>,
-	<immersiveposts:metal_rods:7>,
 	<immersiveengineering:metal:0>,
 	<immersiveengineering:metal:1>,
 	<immersiveengineering:metal:2>,
@@ -158,18 +147,7 @@ var IETMP as IItemStack[] = [
 	<immersiveengineering:metal:26>,
 	<immersiveengineering:metal:27>,
 	<immersiveengineering:metal:28>,
-	<immersiveengineering:metal:29>,
-	<immersiveengineering:metal:30>,
-	<immersiveengineering:metal:31>,
-	<immersiveengineering:metal:32>,
-	<immersiveengineering:metal:33>,
-	<immersiveengineering:metal:34>,
-	<immersiveengineering:metal:35>,
-	<immersiveengineering:metal:36>,
-	<immersiveengineering:metal:37>,
-	<immersiveengineering:metal:38>,
-	<immersiveengineering:metal:39>,
-	<immersiveengineering:metal:40>
+	<immersiveengineering:metal:29>
 ];
 
 #####################
@@ -204,9 +182,9 @@ for ieMetal in IETMP{
 }
 
 
-#########################
+##################
 #	Wipe Press of Gears	#
-#########################
+##################
 for gear in gears.items{
 	MetalPress.removeRecipe(gear);
 }
@@ -234,6 +212,38 @@ for each in plates{
 
 MetalPress.addRecipe(<immersiverailroading:item_rail_part>.withTag({}), <tfctech:metal/steel_rod>, <immersiveengineering:mold:2>, 2000, 2);
 
+for i in 1 to 4 {
+    var rod as IItemStack = itemUtils.getItem("immersiveengineering:material", i);
+    recipes.remove(rod);
+    MetalPress.removeRecipe(rod);
+}
+for i in 0 to 8 {
+    var rod as IItemStack = itemUtils.getItem("immersiveposts:metal_rods", i);
+    recipes.remove(rod);
+    MetalPress.removeRecipe(rod);
+}
+for rods in tfcMetals{
+    
+	var output = itemUtils.getItem("tfctech:metal/"+rods+"_rod");
+	var input = itemUtils.getItem("tfctech:metal/"+rods+"_long_rod");
+    MetalPress.removeRecipe(output);
+	MetalPress.addRecipe(output, input, <immersiveengineering:mold:2>, 2000, 2);
+	var output2 = itemUtils.getItem("tfctech:metal/"+rods+"_long_rod");
+	var input2 = itemUtils.getItem("tfc:metal/ingot/"+ rods);
+    MetalPress.removeRecipe(output2);
+	MetalPress.addRecipe(output2, input2, <immersiveengineering:mold:2>, 2000, 1);
+}
+
+
+for metal3 in tfcMetals{
+    MetalPress.removeRecipe(itemUtils.getItem("tfc:metal/sheet/"+ metal3));
+	var output = itemUtils.getItem("tfc:metal/double_ingot/"+ metal3);
+	var input = itemUtils.getItem("tfc:metal/ingot/"+ metal3);
+	MetalPress.addRecipe(output, input, <immersiveengineering:mold:5>, 2000, 2);
+	var output2 = itemUtils.getItem("tfc:metal/sheet/"+ metal3);
+	var input2 = itemUtils.getItem("tfc:metal/double_ingot/"+ metal3);
+	MetalPress.addRecipe(output2, input2, <immersiveengineering:mold:0>, 2000, 1);
+}
 #hopper, cauldron
     var sPlate = <ore:plateSteel>;
     var iPlate = <ore:plateIron>;
@@ -268,8 +278,8 @@ for metal2 in tfcMetalDusts{
 	ArcFurnace.addRecipe(input, output, null, 600, 2048);
 }
 ###IngotOre###
-for i in 0 to 10 {
-	Crusher.addRecipe(metalName[i].firstItem, metalOre[i], 2048);
+for i, metal in metalName {
+	Crusher.addRecipe(metal.firstItem, metalOre[i], 2048);
 }
 
 Crusher.addRecipe(<minecraft:sand>, <ore:gravel>, 2048);
