@@ -47,7 +47,7 @@ recipes.addShaped(<minecraft:iron_trapdoor>, [[<tfctech:metal/brass_sleeve>,    
 																			  
 recipes.remove(<minecraft:chest>);
 recipes.addShaped(<minecraft:chest>, [[null, <tfctech:metal/wrought_iron_strip>, null],
-					[<tfctech:metal/wrought_iron_strip>, <ore:plankWood, <tfctech:metal/wrought_iron_strip>],
+					[<tfctech:metal/wrought_iron_strip>, <ore:plankWood>, <tfctech:metal/wrought_iron_strip>],
 												   [null, <tfctech:metal/wrought_iron_strip>, null]]);
 
 val workbench = <ore:workbench>;
