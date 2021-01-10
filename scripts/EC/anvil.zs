@@ -10,4 +10,4 @@ Anvil.addRecipe("wolfChain", <tfc:metal/sheet/wrought_iron>, <wolfarmor:chainmai
 Anvil.addRecipe("wolfIron", <tfc:metal/sheet/pig_iron>, <wolfarmor:iron_wolf_armor>, 3, "armor", "BEND_LAST", "BEND_SECOND_LAST", "HIT_THIRD_LAST");
 Anvil.addRecipe("wolfGold", <tfc:metal/sheet/gold>, <wolfarmor:gold_wolf_armor>, 4, "armor", "BEND_LAST", "BEND_SECOND_LAST", "HIT_THIRD_LAST");
 
-Anvil.addRecipe("chainLink", <hooked:microcrafting:2>, <tfctech:metal/wrought_iron_rod>, 3, "general", "BEND_LAST", "BEND_SECOND_LAST", "HIT_THIRD_LAST");
+Anvil.addRecipe("chainLink", <tfctech:metal/wrought_iron_rod>, <hooked:microcrafting:2>, 3, "general", "BEND_LAST", "BEND_SECOND_LAST", "HIT_THIRD_LAST");
