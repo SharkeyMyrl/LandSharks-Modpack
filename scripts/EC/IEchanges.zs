@@ -235,7 +235,10 @@ for each in plates{
 MetalPress.addRecipe(<immersiverailroading:item_rail_part>.withTag({}), <tfctech:metal/steel_rod>, <immersiveengineering:mold:2>, 2000, 2);
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> 3dedec3eaf81e89f026163b0918856414e356512
 for rods in tfcMetals{
 	var output = itemUtils.getItem("tfc:metal/"+rods+"_rod");
 	var input = itemUtils.getItem("tfc:metal/"+rods+"_long_rod");
