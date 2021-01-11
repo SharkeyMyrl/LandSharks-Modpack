@@ -222,12 +222,12 @@ for i in 0 to 8 {
     recipes.remove(rod);
     MetalPress.removeRecipe(rod);
 }
-for rods in tfcMetals{
+for rods in tfcMetalDusts{
     
-	var output = itemUtils.getItem("tfctech:metal/"+rods+"_rod");
+	var output as IItemStack= itemUtils.getItem("tfctech:metal/"+rods+"_rod");
 	var input = itemUtils.getItem("tfctech:metal/"+rods+"_long_rod");
     MetalPress.removeRecipe(output);
-	MetalPress.addRecipe(output, input * 2, <immersiveengineering:mold:2>, 2000, 1);
+	MetalPress.addRecipe(output * 2, input, <immersiveengineering:mold:2>, 2000, 1);
 	var output2 = itemUtils.getItem("tfctech:metal/"+rods+"_long_rod");
 	var input2 = itemUtils.getItem("tfc:metal/ingot/"+ rods);
     MetalPress.removeRecipe(output2);
