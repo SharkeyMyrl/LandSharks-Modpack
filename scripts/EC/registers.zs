@@ -286,7 +286,7 @@ static hiddenItems as IItemStack[] = [
 		<minecraft:gold_ingot>,
 		<immersiveintelligence:material_plate:1>,
 		<immersiveintelligence:material_plate:2>,
-		<immersiveintelligence:material_plate:3>,		
+		<immersiveintelligence:material_plate:3>,
 		<immersiveintelligence:material_plate:4>,
 		<immersiveintelligence:motor_gear:0>,
 		<immersiveintelligence:motor_gear:1>,
@@ -338,7 +338,7 @@ static hiddenItems as IItemStack[] = [
 		<immersiveintelligence:material_nugget:3>,
 		<immersiveintelligence:material_nugget:4>,
 		<immersiveintelligence:material_nugget:5>,
-		
+
 ];
 
 static tfcDict as IOreDictEntry[] = [
@@ -451,4 +451,3 @@ static tfcOres as string[] = [
 	"carobbiite",
 	"arsenic"
 ];
-

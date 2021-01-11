@@ -61,9 +61,9 @@ rawsFor2("ingot", tfcIngot);
 rawsFor2("dust", tfcDust);
 rawsFor("gear", gears);
 rawsFor("rackwheel", racks);
-#################
+#############
 #	Functions	#
-#################
+#############
 function rawsFor(material as string, orDic as IOreDictEntry) as IItemStack[] {
 	for metal in tfcMetals{
 		var item as IItemStack = itemUtils.getItem("tfctech:metal/"+ metal +"_"+ material);
@@ -150,17 +150,17 @@ var IETMP as IItemStack[] = [
 	<immersiveengineering:metal:29>
 ];
 
-#####################
+###################
 #	Wipe Excavator	#
-#####################
+###################
 for min in mineral{
 	Excavator.removeMineral(min);
 }
 
 
-#################
+###############
 #	Ingot Wipe	#
-#################
+###############
 for item in tfcIngot.items{
 	ArcFurnace.removeRecipe(item);
 	AlloySmelter.removeRecipe(item);
@@ -182,9 +182,9 @@ for ieMetal in IETMP{
 }
 
 
-##################
+#######################
 #	Wipe Press of Gears	#
-##################
+#######################
 for gear in gears.items{
 	MetalPress.removeRecipe(gear);
 }
@@ -223,7 +223,7 @@ for i in 0 to 8 {
     MetalPress.removeRecipe(rod);
 }
 for rods in tfcMetals{
-    
+
 	var output = itemUtils.getItem("tfctech:metal/"+rods+"_rod");
 	var input = itemUtils.getItem("tfctech:metal/"+rods+"_long_rod");
     MetalPress.removeRecipe(output);
@@ -258,9 +258,9 @@ for metal3 in tfcMetals{
 									[iPlate, iPlate, iPlate]]);
 
 
-#################################################
+#########################################
 #		Implementation of IE Multiblocks		#
-#################################################
+#########################################
 
 
 ###Dust###
@@ -295,28 +295,25 @@ AlloySmelter.addRecipe(<ore:ingotBrass>.firstItem*5, <ore:ingotZinc>, <ore:ingot
 BlastFurnace.addRecipe(<ore:ingotSteel>.firstItem, <ore:ingotIron>, 2000, <immersiveengineering:material:7>);
 BlastFurnace.addRecipe(<ore:blockSteel>.firstItem, <ore:blockIron>, 2000, <immersiveengineering:material:7>*9);
 
-ArcFurnace.addRecipe(<ore:ingotElectrum>.firstItem*2, <ore:ingotGold>, null, 1200, 2048, [<ore:ingotSilver>]);
-ArcFurnace.addRecipe(<ore:ingotConstantan>.firstItem*2, <ore:ingotCopper>, null, 1200, 2048, [<ore:ingotNickel>]);
-ArcFurnace.addRecipe(<tfc:metal/ingot/sterling_silver>*5, <ore:ingotCopper>*2, null, 3000, 2048, [<ore:ingotSilver>*3]);
-ArcFurnace.addRecipe(<ore:ingotBronze>.firstItem*5, <ore:ingotCopper>*4, null, 3000, 2048, [<ore:ingotTin>]);
-ArcFurnace.addRecipe(<tfc:metal/ingot/rose_gold>*10, <ore:ingotCopper>*3, null, 6000, 2048, [<ore:ingotGold>*7]);
-ArcFurnace.addRecipe(<ore:ingotBrass>.firstItem*5, <ore:ingotZinc>, null, 3000, 2048, [<ore:ingotCopper>*4]);
-ArcFurnace.addRecipe(<ore:ingotSteel>.firstItem, <ore:ingotIron>, null, 600, 2048, [<ore:gemCoal>]);
-ArcFurnace.addRecipe(<ore:blockSteel>.firstItem, <ore:blockIron>, null, 600, 2048, [<ore:blockCoal>]);
+ArcFurnace.addRecipe(<ore:ingotElectrum>.firstItem*2, <ore:ingotGold>, null, 1200, 512, [<ore:ingotSilver>]);
+ArcFurnace.addRecipe(<ore:ingotConstantan>.firstItem*2, <ore:ingotCopper>, null, 1200, 512, [<ore:ingotNickel>]);
+ArcFurnace.addRecipe(<tfc:metal/ingot/sterling_silver>*5, <ore:ingotCopper>*2, null, 3000, 1280, [<ore:ingotSilver>*3]);
+ArcFurnace.addRecipe(<ore:ingotBronze>.firstItem*5, <ore:ingotCopper>*4, null, 3000, 512, [<ore:ingotTin>]);
+ArcFurnace.addRecipe(<tfc:metal/ingot/rose_gold>*10, <ore:ingotCopper>*3, null, 6000, 1280, [<ore:ingotGold>*7]);
+ArcFurnace.addRecipe(<ore:ingotBrass>.firstItem*5, <ore:ingotZinc>, null, 3000, 512, [<ore:ingotCopper>*4]);
+ArcFurnace.addRecipe(<ore:ingotSteel>.firstItem, <ore:ingotIron>, null, 600, 256, [<ore:gemCoal>]);
+ArcFurnace.addRecipe(<ore:blockSteel>.firstItem, <ore:blockIron>, null, 600, 1536, [<ore:blockCoal>]);
 
 ArcFurnace.addRecipe(<tfc:metal/ingot/weak_red_steel>*7, <tfc:metal/ingot/black_steel>*3, null, 6000, 2048, [<tfc:metal/ingot/bismuth_bronze>, <tfc:metal/ingot/sterling_silver>, <ore:ingotSteel>*2]);
 ArcFurnace.addRecipe(<tfc:metal/ingot/weak_blue_steel>*7, <tfc:metal/ingot/black_steel>*3, null, 6000, 2048, [<tfc:metal/ingot/rose_gold>, <ore:ingotBrass>, <ore:ingotSteel>*2]);
 ArcFurnace.addRecipe(<tfc:metal/ingot/weak_steel>*4, <tfc:metal/ingot/steel>*2, null, 2000, 2048, [<ore:ingotNickel>, <tfc:metal/ingot/black_bronze>]);
 
-ArcFurnace.addRecipe(<tfc:metal/ingot/black_bronze>*4, <ore:ingotCopper>*2, null, 2400, 2048, [<ore:ingotSilver>, <ore:ingotGold>]);
-ArcFurnace.addRecipe(<tfc:metal/ingot/bismuth_bronze>*10, <ore:ingotCopper>*5, null, 6000, 2048, [<tfc:metal/ingot/bismuth>*2, <ore:ingotZinc>*3]);
+ArcFurnace.addRecipe(<tfc:metal/ingot/black_bronze>*4, <ore:ingotCopper>*2, null, 2400, 768, [<ore:ingotSilver>, <ore:ingotGold>]);
+ArcFurnace.addRecipe(<tfc:metal/ingot/bismuth_bronze>*10, <ore:ingotCopper>*5, null, 6000, 768, [<tfc:metal/ingot/bismuth>*2, <ore:ingotZinc>*3]);
 
-
-
-
-#########################
+#################
 #		Excavator		#
-#########################
+#################
 //mods.immersiveengineering.Excavator.addMineral(String name, int mineralWeight, double failChance, String[] ores, double[] chances, @Optional int[] dimensionWhitelist, @Optional boolean blacklist);
 Excavator.addMineral("Bauxite", 25, 0.005, ["oreAluminium", "oreMalachite"], [0.05,0.005]);
 Excavator.addMineral("Cinnabar", 25, 0.005, ["oreRedstone", "oreSulfur"], [0.01, 0.005]);
@@ -325,20 +322,11 @@ Excavator.addMineral("Pyrite", 12, 0.005, ["oreSulfur", "oreLignite"], [0.5, 0.5
 Excavator.addMineral("Lapis", 12, 0.005, ["oreLapis", "oreMagnetite", "oreAluminium"], [0.05, 0.02, 0.005]);
 Excavator.addMineral("Extractor From Hell", 10, 0.1, ["dustGlowstone", "gemQuartz"], [0.05, 0.02]);
 
-
-
 CokeOven.addRecipe(<minecraft:coal:1>, 2, <ore:logWood>, 2000);
 
-
-
-
-
-
-
-
-#########################
+#################
 #		Fermenter		#
-#########################
+#################
 Fermenter.removeFluidRecipe(<liquid:ethanol>);
 
 #Ethanol
@@ -351,10 +339,9 @@ Fermenter.addRecipe(null, <liquid:ethanol> * 800, <tfc:food/green_apple>, 2048);
 Fermenter.addRecipe(null, <liquid:ethanol> * 800, <tfc:food/potato>, 2048);
 Fermenter.addRecipe(null, <liquid:ethanol> * 8, <immersiveengineering:material:4>, 512);
 
-
-#########################
+#################
 #		Squeezer		#
-#########################
+#################
 Squeezer.removeFluidRecipe(<liquid:plantoil>);
 
 
@@ -379,9 +366,8 @@ Squeezer.addRecipe(null, <liquid:plantoil> * 2400, <tfc:food/beet>, 2048);
 #Olive Oil
 Squeezer.addRecipe(null, <liquid:olive_oil> * 20, <tfc:food/olive_paste>, 2048);
 
-###########
+################
 # Misc Recipes #
-###########
+################
 ItemRegistry.registerItemHeat(<immersiveengineering:material:18>, 0.35, 1500, false);
 Heating.addRecipe("hop_ingot_heating_redstoner",<immersiveengineering:material:18>, <immersiveengineering:material:19>, 1300, 1500);
-
