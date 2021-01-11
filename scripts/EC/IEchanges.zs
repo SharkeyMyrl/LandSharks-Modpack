@@ -222,33 +222,26 @@ for i in 0 to 8 {
     recipes.remove(rod);
     MetalPress.removeRecipe(rod);
 }
-<<<<<<< HEAD
 for rods in tfcMetalDusts{
-    
-	var output as IItemStack= itemUtils.getItem("tfctech:metal/"+rods+"_rod");
-=======
-for rods in tfcMetals{
-
-	var output = itemUtils.getItem("tfctech:metal/"+rods+"_rod");
->>>>>>> 6565b7893847650e8da663d96a750a026d99b295
-	var input = itemUtils.getItem("tfctech:metal/"+rods+"_long_rod");
-    MetalPress.removeRecipe(output);
-	MetalPress.addRecipe(output * 2, input, <immersiveengineering:mold:2>, 2000, 1);
-	var output2 = itemUtils.getItem("tfctech:metal/"+rods+"_long_rod");
-	var input2 = itemUtils.getItem("tfc:metal/ingot/"+ rods);
-    MetalPress.removeRecipe(output2);
-	MetalPress.addRecipe(output2, input2, <immersiveengineering:mold:2>, 2000, 1);
+		var output as IItemStack= itemUtils.getItem("tfctech:metal/"+rods+"_rod");
+		var input = itemUtils.getItem("tfctech:metal/"+rods+"_long_rod");
+		MetalPress.removeRecipe(output);
+		MetalPress.addRecipe(output * 2, input, <immersiveengineering:mold:2>, 2000, 1);
+		var output2 = itemUtils.getItem("tfctech:metal/"+rods+"_long_rod");
+		var input2 = itemUtils.getItem("tfc:metal/ingot/"+ rods);
+		MetalPress.removeRecipe(output2);
+		MetalPress.addRecipe(output2, input2, <immersiveengineering:mold:2>, 2000, 1);
 }
 
 
-for metal3 in tfcMetals{
-    MetalPress.removeRecipe(itemUtils.getItem("tfc:metal/sheet/"+ metal3));
-	var output = itemUtils.getItem("tfc:metal/double_ingot/"+ metal3);
-	var input = itemUtils.getItem("tfc:metal/ingot/"+ metal3);
-	MetalPress.addRecipe(output, input, <immersiveengineering:mold:5>, 2000, 2);
-	var output2 = itemUtils.getItem("tfc:metal/sheet/"+ metal3);
-	var input2 = itemUtils.getItem("tfc:metal/double_ingot/"+ metal3);
-	MetalPress.addRecipe(output2, input2, <immersiveengineering:mold:0>, 2000, 1);
+for metal3 in tfcMetalDusts{
+	  MetalPress.removeRecipe(itemUtils.getItem("tfc:metal/sheet/"+ metal3));
+		var output = itemUtils.getItem("tfc:metal/double_ingot/"+ metal3);
+		var input = itemUtils.getItem("tfc:metal/ingot/"+ metal3);
+		MetalPress.addRecipe(output, input, <immersiveengineering:mold:5>, 2000, 2);
+		var output2 = itemUtils.getItem("tfc:metal/sheet/"+ metal3);
+		var input2 = itemUtils.getItem("tfc:metal/double_ingot/"+ metal3);
+		MetalPress.addRecipe(output2, input2, <immersiveengineering:mold:0>, 2000, 1);
 }
 #hopper, cauldron
     var sPlate = <ore:plateSteel>;
