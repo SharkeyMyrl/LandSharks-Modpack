@@ -21,8 +21,8 @@ servers.dat
 mineraltracker
 resources
 crash-reports
-config/InvTweaks.cfg
-config/jei/worldSettings.cfg
-config/splash.properties
+InvTweaks.cfg
+worldSettings.cfg
+*.properties
 *.jpg
 
