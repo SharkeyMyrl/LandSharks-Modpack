@@ -56,7 +56,7 @@ recipes.addShaped(<minecraft:crafting_table>, [[null, <tfctech:metal/wrought_iro
 															   [null, <tfctech:metal/wrought_iron_strip>, null]]);
 var mortar = <tfc:mortar>;
 recipes.remove(<minecraft:stonebrick>);
-recipes.addShaped(<minecraft:stonebrick>, [[mortar, <ore:stonePolished>, mortar],
+recipes.addShaped(<minecraft:stonebrick>*4, [[mortar, <ore:stonePolished>, mortar],
                                                             [<ore:stonePolished>,mortar, <ore:stonePolished>],
                                                             [mortar, <ore:stonePolished>, mortar]]);
                                                                
