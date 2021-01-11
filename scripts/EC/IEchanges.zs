@@ -227,7 +227,7 @@ for rods in tfcMetals{
 	var output = itemUtils.getItem("tfctech:metal/"+rods+"_rod");
 	var input = itemUtils.getItem("tfctech:metal/"+rods+"_long_rod");
     MetalPress.removeRecipe(output);
-	MetalPress.addRecipe(output, input, <immersiveengineering:mold:2>, 2000, 2);
+	MetalPress.addRecipe(output, input * 2, <immersiveengineering:mold:2>, 2000, 1);
 	var output2 = itemUtils.getItem("tfctech:metal/"+rods+"_long_rod");
 	var input2 = itemUtils.getItem("tfc:metal/ingot/"+ rods);
     MetalPress.removeRecipe(output2);
