@@ -234,7 +234,7 @@ for rods in tfcMetalDusts{
 }
 
 
-for metal3 in tfcMetals{
+for metal3 in tfcMetalDusts{
 	  MetalPress.removeRecipe(itemUtils.getItem("tfc:metal/sheet/"+ metal3));
 		var output = itemUtils.getItem("tfc:metal/double_ingot/"+ metal3);
 		var input = itemUtils.getItem("tfc:metal/ingot/"+ metal3);
