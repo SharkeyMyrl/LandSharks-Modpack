@@ -21,8 +21,8 @@ servers.dat
 mineraltracker
 resources
 crash-reports
-InvTweaks.cfg
-worldSettings.cfg
-*.properties
 *.jpg
-
+*.png
+*.properties
+worldSettings.cfg
+InvTweaks.cfg
