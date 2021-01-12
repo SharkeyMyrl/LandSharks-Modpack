@@ -20,7 +20,7 @@ recipes.addShaped(<immersiverailroading:item_rolling_stock>.withTag({defID: "rol
  [[<ore:lamp>,<tfc:brass_mechanisms>,<immersiveengineering:sheetmetal:8>],
   [<immersiveengineering:metal_device0:4>,<tfc:brass_mechanisms>,<tfctech:smeltery_firebox>],
   [<tfc:metal/double_sheet/steel>,<tfctech:metal/steel_long_rod>,<tfc:metal/double_sheet/steel>]]);
-  
+
 ##########
 # Waycar #
 ##########
@@ -50,22 +50,22 @@ recipes.addShaped(<immersiverailroading:item_rolling_stock>.withTag({defID: "rol
 
 ################
 # Cooke Tender #
-################		
+################
 
-recipes.addShaped(<immersiverailroading:item_rolling_stock>.withTag({defID: "rolling_stock/tender/cooke_tender.json", gauge: 1.435}), 
- [[<immersiveengineering:sheetmetal:8>,<tfc:brass_mechanisms>,<immersiveengineering:sheetmetal:8>],              
-  [<immersiveengineering:wooden_device0>,<engineersdecor:halfslab_sheetmetal_steel>,<immersiveengineering:wooden_device0>],               
+recipes.addShaped(<immersiverailroading:item_rolling_stock>.withTag({defID: "rolling_stock/tender/cooke_tender.json", gauge: 1.435}),
+ [[<immersiveengineering:sheetmetal:8>,<tfc:brass_mechanisms>,<immersiveengineering:sheetmetal:8>],
+  [<immersiveengineering:wooden_device0>,<engineersdecor:halfslab_sheetmetal_steel>,<immersiveengineering:wooden_device0>],
   [<tfc:metal/double_sheet/steel>,<tfctech:metal/steel_long_rod>,<tfc:metal/double_sheet/steel>]]);
 
 ##################
 # Speed Retarder #
 ##################
 
-recipes.addShaped(<immersiverailroading:item_augment>.withTag({gauge: 1.435, augment: 0})*4, 
- [[<tfc:metal/sheet/steel>,<tfc:brass_mechanisms>,<tfc:metal/sheet/steel>],              
-  [<immersiveengineering:metal_decoration0:4>,<immersiveengineering:metal_decoration0:5>,<immersiveengineering:metal_decoration0:3>],               
+recipes.addShaped(<immersiverailroading:item_augment>.withTag({gauge: 1.435, augment: 0})*4,
+ [[<tfc:metal/sheet/steel>,<tfc:brass_mechanisms>,<tfc:metal/sheet/steel>],
+  [<immersiveengineering:metal_decoration0:4>,<immersiveengineering:metal_decoration0:5>,<immersiveengineering:metal_decoration0:3>],
   [null,<tfc:metal/double_sheet/steel>,null]]);
-  
+
 ######################
 # Locomotive Control #
 ######################
@@ -80,8 +80,8 @@ recipes.addShaped(<immersiverailroading:item_augment>.withTag({gauge: 1.435, aug
 ############
 
 recipes.addShaped(<immersiverailroading:item_augment>.withTag({gauge: 1.435, augment: 7})*4,
-[[null,<tfc:metal/double_sheet/steel>,null],              
-  [<immersiveengineering:metal_decoration0:3>,<minecraft:heavy_weighted_pressure_plate>,<immersiveengineering:wirecoil:5>],               
+[[null,<tfc:metal/double_sheet/steel>,null],
+  [<immersiveengineering:metal_decoration0:3>,<minecraft:heavy_weighted_pressure_plate>,<immersiveengineering:wirecoil:5>],
   [<tfc:metal/sheet/steel>,<immersiveengineering:metal_decoration0:4>,<tfc:metal/sheet/steel>]]);
 
 ############
@@ -89,87 +89,42 @@ recipes.addShaped(<immersiverailroading:item_augment>.withTag({gauge: 1.435, aug
 ############
 
 recipes.addShaped(<immersiverailroading:item_augment>.withTag({gauge: 1.435, augment: 8})*4,
-[[null,<tfc:metal/double_sheet/steel>,null],              
-  [<immersiveengineering:metal_decoration0:3>,<immersiverailroading:item_hook>,<immersiveengineering:wirecoil:5>],               
+[[null,<tfc:metal/double_sheet/steel>,null],
+  [<immersiveengineering:metal_decoration0:3>,<immersiverailroading:item_hook>,<immersiveengineering:wirecoil:5>],
   [<tfc:metal/sheet/steel>,<immersiveengineering:metal_decoration0:4>,<tfc:metal/sheet/steel>]]);
 
 ###############
 # Item Loader #
 ###############
 
-recipes.addShaped(<immersiverailroading:item_augment>.withTag({gauge: 1.435, augment: 4})*4, 
- [[<tfc:metal/sheet/steel>,<immersiveengineering:conveyor>.withTag({conveyorType: "immersiveengineering:conveyor"}),<immersiveengineering:conveyor>.withTag({conveyorType: "immersiveengineering:dropper"})],              
-  [<immersiveengineering:metal_decoration0:4>,<immersiveengineering:conveyor>.withTag({conveyorType: "immersiveengineering:vertical"}),<immersiveengineering:metal_decoration0:3>],               
+recipes.addShaped(<immersiverailroading:item_augment>.withTag({gauge: 1.435, augment: 4})*4,
+ [[<tfc:metal/sheet/steel>,<immersiveengineering:conveyor>.withTag({conveyorType: "immersiveengineering:conveyor"}),<immersiveengineering:conveyor>.withTag({conveyorType: "immersiveengineering:dropper"})],
+  [<immersiveengineering:metal_decoration0:4>,<immersiveengineering:conveyor>.withTag({conveyorType: "immersiveengineering:vertical"}),<immersiveengineering:metal_decoration0:3>],
   [<immersiveengineering:conveyor>.withTag({conveyorType: "immersiveengineering:extract"}),<immersiveengineering:conveyor>.withTag({conveyorType: "immersiveengineering:conveyor"}),<tfc:metal/sheet/steel>]]);
 
 #################
 # Item Unloader #
 #################
 
-recipes.addShaped(<immersiverailroading:item_augment>.withTag({gauge: 1.435, augment: 4})*4, 
- [[<immersiveengineering:conveyor>.withTag({conveyorType: "immersiveengineering:extract"}),<immersiveengineering:conveyor>.withTag({conveyorType: "immersiveengineering:conveyor"}),<tfc:metal/sheet/steel>],              
-  [<immersiveengineering:metal_decoration0:4>,<immersiveengineering:conveyor>.withTag({conveyorType: "immersiveengineering:vertical"}),<immersiveengineering:metal_decoration0:3>],               
+recipes.addShaped(<immersiverailroading:item_augment>.withTag({gauge: 1.435, augment: 4})*4,
+ [[<immersiveengineering:conveyor>.withTag({conveyorType: "immersiveengineering:extract"}),<immersiveengineering:conveyor>.withTag({conveyorType: "immersiveengineering:conveyor"}),<tfc:metal/sheet/steel>],
+  [<immersiveengineering:metal_decoration0:4>,<immersiveengineering:conveyor>.withTag({conveyorType: "immersiveengineering:vertical"}),<immersiveengineering:metal_decoration0:3>],
   [<tfc:metal/sheet/steel>,<immersiveengineering:conveyor>.withTag({conveyorType: "immersiveengineering:conveyor"}),<immersiveengineering:conveyor>.withTag({conveyorType: "immersiveengineering:dropper"})]]);
 
 ################
 # Fluid Loader #
 ################
 
-recipes.addShaped(<immersiverailroading:item_augment>.withTag({gauge: 1.435, augment: 5})*4, 
- [[<tfc:metal/sheet/steel>,<immersiveengineering:metal_device1:6>,<immersiveengineering:metal_device0:6>],              
-  [<immersiveengineering:metal_decoration0:4>,<immersiveengineering:metal_device1:6>,<immersiveengineering:metal_decoration0:3>],               
-  [<immersiveengineering:metal_device1:6>,<immersiveengineering:metal_device0:5>,<tfc:metal/sheet/steel>]]); 
+recipes.addShaped(<immersiverailroading:item_augment>.withTag({gauge: 1.435, augment: 5})*4,
+ [[<tfc:metal/sheet/steel>,<immersiveengineering:metal_device1:6>,<immersiveengineering:metal_device0:6>],
+  [<immersiveengineering:metal_decoration0:4>,<immersiveengineering:metal_device1:6>,<immersiveengineering:metal_decoration0:3>],
+  [<immersiveengineering:metal_device1:6>,<immersiveengineering:metal_device0:5>,<tfc:metal/sheet/steel>]]);
 
 ##################
 # Fluid Unloader #
 ##################
 
-recipes.addShaped(<immersiverailroading:item_augment>.withTag({gauge: 1.435, augment: 6})*4, 
- [[<immersiveengineering:metal_device1:6>,<immersiveengineering:metal_device0:5>,<tfc:metal/sheet/steel>],              
-  [<immersiveengineering:metal_decoration0:4>,<immersiveengineering:metal_device1:6>,<immersiveengineering:metal_decoration0:3>],               
-  [<tfc:metal/sheet/steel>,<immersiveengineering:metal_device1:6>,<immersiveengineering:metal_device0:6>]]); 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+recipes.addShaped(<immersiverailroading:item_augment>.withTag({gauge: 1.435, augment: 6})*4,
+ [[<immersiveengineering:metal_device1:6>,<immersiveengineering:metal_device0:5>,<tfc:metal/sheet/steel>],
+  [<immersiveengineering:metal_decoration0:4>,<immersiveengineering:metal_device1:6>,<immersiveengineering:metal_decoration0:3>],
+  [<tfc:metal/sheet/steel>,<immersiveengineering:metal_device1:6>,<immersiveengineering:metal_device0:6>]]);
