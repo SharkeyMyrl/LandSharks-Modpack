@@ -274,7 +274,7 @@ for metal2 in tfcMetalDusts{
 	var input = itemUtils.getItem("tfc:metal/ingot/"+ metal2);
 	var output = itemUtils.getItem("tfc:metal/dust/"+ metal2);
 
-	ArcFurnace.addRecipe(input, output, null, 600, 2048);
+	ArcFurnace.addRecipe(input, output, null, 600, 512);
 }
 ###IngotOre###
 for i, metal in metalName {
