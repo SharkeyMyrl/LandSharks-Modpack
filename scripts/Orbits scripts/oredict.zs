@@ -24,10 +24,10 @@ var basicSheetMetalChuteDictEnt as IOreDictEntry = <ore:basicSheetMetalChute>;
 basicSheetMetalChuteDictEnt.addItems([<immersiveengineering:conveyor>.withTag({conveyorType: "immersiveengineering:chute_iron"}), <immersiveengineering:conveyor>.withTag({conveyorType: "immersiveengineering:chute_aluminum"})]);
 
 var simpleSleeveDictEnt as IOreDictEntry = <ore:simpleSleeve>;
-simpleSleeveDictEnt.addItems([<tfctech:metal/brass_sleeve>]);
+simpleSleeveDictEnt.addItems([<tfctech:metal/tin_sleeve>]);
 
 var basicSleeveDictEnt as IOreDictEntry = <ore:basicSleeve>;
-basicSleeveDictEnt.addItems([<tfctech:metal/tin_sleeve>]);
+basicSleeveDictEnt.addItems([<tfctech:metal/brass_sleeve>]);
 
 var heavySleeveDictEnt as IOreDictEntry = <ore:heavySleeve>;
 heavySleeveDictEnt.addItems([<tfctech:metal/steel_sleeve>]);

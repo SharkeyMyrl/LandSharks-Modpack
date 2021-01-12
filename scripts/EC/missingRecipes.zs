@@ -26,10 +26,10 @@ val iron = <ore:ingotIron>;
 recipes.addShaped(<minecraft:iron_block>, [[iron, iron, iron],
 										   [iron, iron, iron],
 										   [iron, iron, iron]]);
-					
-recipes.remove(<hooked:hook:1>);	
-recipes.remove(<hooked:microcrafting:2>);	
-recipes.remove(<hooked:microcrafting:3>);						
+
+recipes.remove(<hooked:hook:1>);
+recipes.remove(<hooked:microcrafting:2>);
+recipes.remove(<hooked:microcrafting:3>);
 recipes.addShaped(<hooked:microcrafting:3>, [[<hooked:microcrafting:2>, null, null],
 									[null, <hooked:microcrafting:2>, null],
 									[null, null, <hooked:microcrafting:2>]]);
@@ -40,11 +40,11 @@ val gold = <ore:ingotGold>;
 recipes.addShaped(<minecraft:gold_block>, [[gold, gold, gold],
 											[gold, gold, gold],
 											[gold, gold, gold]]);
-recipes.remove(<minecraft:iron_trapdoor>);														
+recipes.remove(<minecraft:iron_trapdoor>);
 recipes.addShaped(<minecraft:iron_trapdoor>, [[<tfctech:metal/brass_sleeve>,       <tfctech:metal/wrought_iron_strip>, <tfctech:metal/brass_sleeve>],
 														  [<tfctech:metal/wrought_iron_strip>, <tfctech:metal/wrought_iron_strip>, <tfctech:metal/wrought_iron_strip>],
 														  [<tfctech:metal/wrought_iron_strip>, <tfctech:metal/wrought_iron_strip>, <tfctech:metal/wrought_iron_strip>]]);
-																			  
+
 recipes.remove(<minecraft:chest>);
 recipes.addShaped(<minecraft:chest>, [[null, <tfctech:metal/wrought_iron_strip>, null],
 					[<tfctech:metal/wrought_iron_strip>, <ore:plankWood>, <tfctech:metal/wrought_iron_strip>],
@@ -59,8 +59,10 @@ recipes.remove(<minecraft:stonebrick>);
 recipes.addShaped(<minecraft:stonebrick>*4, [[mortar, <ore:stonePolished>, mortar],
                                                             [<ore:stonePolished>,mortar, <ore:stonePolished>],
                                                             [mortar, <ore:stonePolished>, mortar]]);
-                                                               
-                                                               
+
+recipes.addShapeless(<minecraft:bucket>.withTag({FluidName: "water", Amount: 1000}), [[<minecraft:bucket>.withTag({FluidName: "fresh_water", Amount: 1000})]])
+
+
 ##########
 # IE Recipes #
 ##########
@@ -74,7 +76,7 @@ recipes.remove(<immersiveengineering:stone_decoration:1>);
 recipes.addShaped(<immersiveengineering:stone_decoration:1>*2, [[<tfc:ceramics/fired/fire_brick>, <tfc:mortar>, <tfc:ceramics/fired/fire_brick>],
 																			  [<tfc:mortar>, <immersiveengineering:stone_decoration:0>, <tfc:mortar>],
 																			  [<tfc:ceramics/fired/fire_brick>, <tfc:mortar>, <tfc:ceramics/fired/fire_brick>]]);
-#Kiln Brick																			  
+#Kiln Brick
 recipes.remove(<immersiveengineering:stone_decoration:10>);
 recipes.addShaped(<immersiveengineering:stone_decoration:10>*2, [[null, <tfc:mortar>, null],
 											[<tfc:ceramics/fired/fire_brick>, <tfc:fire_bricks>, <tfc:ceramics/fired/fire_brick>],
