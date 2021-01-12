@@ -60,7 +60,7 @@ recipes.addShaped(<minecraft:stonebrick>*4, [[mortar, <ore:stonePolished>, morta
                                                             [<ore:stonePolished>,mortar, <ore:stonePolished>],
                                                             [mortar, <ore:stonePolished>, mortar]]);
 
-recipes.addShapeless(<minecraft:bucket>.withTag({FluidName: "water", Amount: 1000}), [[<minecraft:bucket>.withTag({FluidName: "fresh_water", Amount: 1000})]])
+recipes.addShapeless(<minecraft:water_bucket>, [<forge:bucketfilled>.withTag({FluidName: "fresh_water", Amount: 1000}).noReturn()]);
 
 
 ##########
