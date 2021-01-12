@@ -47,31 +47,31 @@ recipes.addShaped(<logisticspipes:remote_orderer>,
 	 [null,<logisticspipes:module_blank>,null],
 	 [null,<immersiveintelligence:material:12>,null]]);
 
-	 recipes.removeShaped(<logisticspipes:program_compiler>);
+recipes.removeShaped(<logisticspipes:program_compiler>);
 recipes.addShaped(<logisticspipes:program_compiler>,
 	[[null,null,null],
 	 [<logisticspipes:disk>,<logisticspipes:frame>,<logisticspipes:disk>],
 	 [null,<immersiveintelligence:material:12>,null]]);
 
-	 recipes.removeShaped(<logisticspipes:statistics_table>);
+recipes.removeShaped(<logisticspipes:statistics_table>);
 recipes.addShaped(<logisticspipes:statistics_table>,
 	[[null,null,null],
 	 [<immersiveintelligence:material:7>,<logisticspipes:frame>,<immersiveintelligence:material:7>],
 	 [null,<immersiveintelligence:metal_decoration:2>,null]]);
 
-	 recipes.removeShaped(<logisticspipes:disk>);
+recipes.removeShaped(<logisticspipes:disk>);
 recipes.addShaped(<logisticspipes:disk>,
 	[[null,<ore:rubber>,null],
 	 [<ore:rubber>,<immersiveintelligence:material:7>,<ore:rubber>],
 	 [null,<ore:tierTwoBolt>,null]]);
 
-	 recipes.removeShaped(<logisticspipes:sign_creator>);
+recipes.removeShaped(<logisticspipes:sign_creator>);
 recipes.addShaped(<logisticspipes:sign_creator>,
 	[[null,<ore:tierOneLongRod>,null],
 	 [<ore:tierOneRod>,<minecraft:sign>,<ore:tierOneRod>],
 	 [null,<ore:tierOneLongRod>,null]]);
 
-	 recipes.removeShaped(<logisticspipes:item_card>);
+recipes.removeShaped(<logisticspipes:item_card>);
 recipes.addShaped(<logisticspipes:item_card>,
 	[[null,<engineersdecor:halfslab_sheetmetal_steel>,null],
 	 [<ore:rubber>,<immersiveintelligence:material:7>,<ore:rubber>],

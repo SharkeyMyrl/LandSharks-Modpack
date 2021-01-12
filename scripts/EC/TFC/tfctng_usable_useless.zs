@@ -10,7 +10,7 @@ import mods.terrafirmacraft.Heating;
 import mods.terrafirmacraft.Quern;
 
 
-// Register item as a fuel for fire pit 
+// Register item as a fuel for fire pit
 
 ItemRegistry.registerFuel(<tfc:ore/petrified_wood>, 1000, 800, false, false);
 ItemRegistry.registerFuel(<tfc:ore/jet>, 2000, 900, false, false);

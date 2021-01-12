@@ -28,8 +28,6 @@ recipes.addShaped(<minecraft:clock>,
 	[[null,<ore:dyeYellow>,null],
 	 [<ore:tierTwoRod>,<ore:gemNormal>,<ore:tierTwoRod>],
 	 [null,null,null]]);
-	 
+
 	 recipes.removeShapeless(<tfctech:powder/potash>);
 	 recipes.addShapeless(<tfctech:powder/potash>*4, [<tfctech:pot_potash>]);
-	 
-	 furnace.addRecipe(<tfctech:powder/ash>, <ore:dustWood>);
