@@ -210,7 +210,6 @@ for each in plates{
 	recipes.remove(each);
 }
 
-MetalPress.addRecipe(<immersiverailroading:item_rail_part>.withTag({}), <tfctech:metal/steel_rod>, <immersiveengineering:mold:2>, 2000, 2);
 
 for i in 1 to 4 {
     var rod as IItemStack = itemUtils.getItem("immersiveengineering:material", i);
