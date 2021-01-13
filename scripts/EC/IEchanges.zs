@@ -30,7 +30,7 @@ import scripts.EC.registers.tfcMetalDusts;
 //var.addAll(IOreDictEntry otherEntry);
 //var.addAll(<ore:ingotGold>);
 
-	IEMultiBlockStages.addStage("never", "IE:Assembler", "Sorry this machine has bugs.");
+IEMultiBlockStages.addStage("never", "IE:Assembler", "Sorry this machine has bugs.");
 
 static mineral as string[] = [
 	"Bauxite",
