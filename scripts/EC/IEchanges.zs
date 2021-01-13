@@ -17,6 +17,8 @@ import mods.immersiveengineering.Squeezer;
 import mods.terrafirmacraft.Heating;
 import mods.terrafirmacraft.ItemRegistry;
 
+import mods.multiblockstages.IEMultiBlockStages;
+
 import scripts.EC.registers.gearDicts;
 import scripts.EC.registers.tfcMetals;
 import scripts.EC.registers.tfcMetalDusts;
@@ -27,6 +29,8 @@ import scripts.EC.registers.tfcMetalDusts;
 
 //var.addAll(IOreDictEntry otherEntry);
 //var.addAll(<ore:ingotGold>);
+
+	IEMultiBlockStages.addStage("never", "IE:Assembler", "Sorry this machine has bugs.");
 
 static mineral as string[] = [
 	"Bauxite",
